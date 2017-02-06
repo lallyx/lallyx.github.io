@@ -1,0 +1,3712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animals>
+  <pet>
+    <Animal_ID>A513771</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Golden Retriever</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>22000 238TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513743</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Samoyed</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>22400 8TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516014</Animal_ID>
+    <Animal_Name>Evee</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>English Springer Spaniel</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>700 WOODLAND WAY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514724</Animal_ID>
+    <Animal_Name>Lily</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>20800 31ST LN S. #A SEA TAC</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514712</Animal_ID>
+    <Animal_Name>Oscar</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>178TH AVE NE AND NE 8TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514516</Animal_ID>
+    <Animal_Name>Bernard</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Turkish Van</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>35500 28TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515486</Animal_ID>
+    <Animal_Name>Emmett</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>47500 288TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515182</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Shiba Inu</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>34400 214TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513768</Animal_ID>
+    <Animal_Name>Jackson/jax</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Russian Blue</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>228TH ST SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513744</Animal_ID>
+    <Animal_Name>Hernie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>21300 82ND AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515140</Animal_ID>
+    <Animal_Name>Moxie</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Flat Coat Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>3300 SW 332ND ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513765</Animal_ID>
+    <Animal_Name>Loki</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SUPERMALL DRIVE AT MCDONALDS</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515011</Animal_ID>
+    <Animal_Name>Pritten</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>NE 70TH STREET</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515751</Animal_ID>
+    <Animal_Name>Shelly</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Miniature Pinscher</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>1300 U ST NW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513896</Animal_ID>
+    <Animal_Name>Coco</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Pekingese</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>11200 SE 260TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516112</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>White / Brown</Animal_Color>
+    <Address>12800 SE 282ND WAY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516217</Animal_ID>
+    <Animal_Name>Cooper</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pug</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>7700 NE 167TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516107</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>American Wirehair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515931</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pug</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>24800 128TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513736</Animal_ID>
+    <Animal_Name>Charlie</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>33000 37TH CT SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513763</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21200 142ND AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514736</Animal_ID>
+    <Animal_Name>Sky</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>18400 42ND AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516136</Animal_ID>
+    <Animal_Name>Corah</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Maine Coon</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516117</Animal_ID>
+    <Animal_Name>Mako</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Ragdoll</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>25TH AND SPOKANE ST IN BEACON HILL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515232</Animal_ID>
+    <Animal_Name>Sophie</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Shih Tzu</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>PINE CREST CIRCLE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513067</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>German Shepherd</Animal_Breed>
+    <Animal_Color>Black / Brown</Animal_Color>
+    <Address>26200 33RD AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514744</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Brown / Unknown</Animal_Color>
+    <Address>16900 SE 138TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515184</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Maine Coon</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>11600 BEACON AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514743</Animal_ID>
+    <Animal_Name>Theo</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>93RD AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515141</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pomeranian</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address>11020 SE KENT KANGLEY RD APT CC202</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514710</Animal_ID>
+    <Animal_Name>Murphy</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>9700 NE 124TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513370</Animal_ID>
+    <Animal_Name>Balee</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>MAPLEWOOD HEIGHTS</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516022</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>White / Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515928</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Miniature Poodle</Animal_Breed>
+    <Animal_Color>Black / Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515251</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Pomeranian</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>22307 DOCK AVE - DES MOINES PIER PARK</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513758</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Golden Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>ENATAI AREA / KILLARNEY CIRCLE  102ND PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513425</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Chihuahua - Long Haired</Animal_Breed>
+    <Animal_Color>Black / Brown</Animal_Color>
+    <Address>800 W VALLEY HWY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515682</Animal_ID>
+    <Animal_Name>White Kitty</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SE 177TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513802</Animal_ID>
+    <Animal_Name>Sophie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>14862 100TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514910</Animal_ID>
+    <Animal_Name>Mel</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Persian</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>10105 NE 134TH LN APT M103 KIRKLAND WA 9</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514726</Animal_ID>
+    <Animal_Name>Boo</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>22400 NE MARKETPLACE DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517104</Animal_ID>
+    <Animal_Name>Ozzie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>16028 SE 46 PL.</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513096</Animal_ID>
+    <Animal_Name>Gromit</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>German Shepherd</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>WAX ROAD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514517</Animal_ID>
+    <Animal_Name>Robert</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>WILDWOOD APARTMENT COMPLEX</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516440</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Rough Collie</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address>216TH ST AND ISSAQUAH HOBART RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515157</Animal_ID>
+    <Animal_Name>Summit</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>2600 NW 56TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515178</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>German Shepherd</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>SE 256TH AND 124TH AVE SE INTERSECTION</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513716</Animal_ID>
+    <Animal_Name>Quincy</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Golden Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>18700 EDGECLIFF DR SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515179</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address>SHOREWOOD HS N 170TH AND FREMONT AVE N</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515689</Animal_ID>
+    <Animal_Name>White Kitty</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SE 177TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515745</Animal_ID>
+    <Animal_Name>Sparky</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>German Shepherd</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>26830 86TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514742</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>American Pit Bull Terrier</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>FACTORIA MALL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514479</Animal_ID>
+    <Animal_Name>Appolo</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Shiba Inu</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>6600 NE 202ND ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514901</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>16300 LINDEN AVE N</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516057</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Shih Tzu</Animal_Breed>
+    <Animal_Color>White / White</Animal_Color>
+    <Address>10611 39TH SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516229</Animal_ID>
+    <Animal_Name>Angel</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>16TH NE LANE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515172</Animal_ID>
+    <Animal_Name>Hunter</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Beagle</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>32200 39TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513899</Animal_ID>
+    <Animal_Name>Yukidama</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Turkish Angora</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>CUL DE SAC OF 116TH/MERIDIAN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516455</Animal_ID>
+    <Animal_Name>Bonk</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>7400 COTTONWOOD DR SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515698</Animal_ID>
+    <Animal_Name>Sugar</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SW 304TH IN YARD OF HOME</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516390</Animal_ID>
+    <Animal_Name>Aslan</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Maltese</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>7000 20TH AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515570</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Toy Poodle</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>4200 137TH AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516138</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Rottweiler</Animal_Breed>
+    <Animal_Color>Black / Brown</Animal_Color>
+    <Address>1000 258TH AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514478</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Australian Shepherd</Animal_Breed>
+    <Animal_Color>White / Black</Animal_Color>
+    <Address>176TH AVE SE AND SE 295TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515144</Animal_ID>
+    <Animal_Name>Summit</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>105TH AND 8TH AVE NW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514692</Animal_ID>
+    <Animal_Name>Biff</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Brittany</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>8100 NE 141ST ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513753</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Toy Poodle</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>1200 N 152ND ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515129</Animal_ID>
+    <Animal_Name>Tennessee</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Golden Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>2800 NE LOGAN ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515799</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Brittany</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address>00 4TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515142</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pomeranian</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address>11020 SE KENT KANGLEY RD APT CC202</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516075</Animal_ID>
+    <Animal_Name>Brodie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>14900 97TH AVE E</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515153</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514727</Animal_ID>
+    <Animal_Name>Sootie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>5700 200TH ST SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514913</Animal_ID>
+    <Animal_Name>Rust</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Dachshund - Long-Haired</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>152ND AND KENT KANGLEY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515090</Animal_ID>
+    <Animal_Name>Rosie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>2800 S 148TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515151</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>German Shepherd / Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>2100 N 161ST PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516116</Animal_ID>
+    <Animal_Name>Gemma</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>15200 263RD AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513745</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Miniature Poodle</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514667</Animal_ID>
+    <Animal_Name>Mimi</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Bombay</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>21200 SE 34TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515929</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Miniature Poodle</Animal_Breed>
+    <Animal_Color>Black / Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514958</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Maine Coon</Animal_Breed>
+    <Animal_Color>Black / Brown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513752</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>3300 WARD CT</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515690</Animal_ID>
+    <Animal_Name>Lily</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>6700 121ST PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516137</Animal_ID>
+    <Animal_Name>Corah</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Maine Coon</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516056</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Miniature Schnauzer</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>10611 39TH SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513737</Animal_ID>
+    <Animal_Name>Charlie</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>33000 37TH CT SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515565</Animal_ID>
+    <Animal_Name>Doc Holliday</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Russian Blue</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>14TH AVE S AND S 270TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515010</Animal_ID>
+    <Animal_Name>Gosha</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Siamese</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>228TH AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516925</Animal_ID>
+    <Animal_Name>Stubby</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Egyptian Mau</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>HOLDEN SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517331</Animal_ID>
+    <Animal_Name>Fiyero</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>KENMORE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517333</Animal_ID>
+    <Animal_Name>Bob</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Cardigan Welsh Corgi</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>16135 SE 145TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517334</Animal_ID>
+    <Animal_Name>Mia</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>16135 SE 145TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516615</Animal_ID>
+    <Animal_Name>Penny</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Siamese</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>16045 147TH PL NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516725</Animal_ID>
+    <Animal_Name>Sulu</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>6450 NE 186TH ST KENMORE, WA</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517168</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>5107 MACBETH DRIVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517162</Animal_ID>
+    <Animal_Name>Ekko</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>N. 30TH ST AND FIR STREET</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516540</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Standard Schnauzer</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516786</Animal_ID>
+    <Animal_Name>Buddy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>7800 NE 28TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516691</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Pug</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>21215 INTERNATIONAL BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517279</Animal_ID>
+    <Animal_Name>Princess</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Shih Tzu</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SE 192ND NEAR SOOS CREEK AND BENSON HILL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517164</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brown / Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517301</Animal_ID>
+    <Animal_Name>Cody</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Australian Shepherd</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>POSS. SEEN SE 208 ST/ISSA-HOBART RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517147</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516692</Animal_ID>
+    <Animal_Name>Pinky</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Whippet</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>14106 NE 62ND ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516896</Animal_ID>
+    <Animal_Name>Doki</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>S 278TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517166</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>NE 103RD CT AND 181ST AVE NE.</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517105</Animal_ID>
+    <Animal_Name>Cornelius</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>MARYMOORE PARK</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516899</Animal_ID>
+    <Animal_Name>Buddy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>4527 172ND AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516718</Animal_ID>
+    <Animal_Name>Sulu</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>6450 NE 186TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517065</Animal_ID>
+    <Animal_Name>Ralph</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>18530 SE 258TH</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517120</Animal_ID>
+    <Animal_Name>Cody</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Australian Shepherd</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>216TH AVE SE WOODS ABOVE CEDAR RIVER</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517276</Animal_ID>
+    <Animal_Name>Tigger</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>24600 RUSSELL RD S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514734</Animal_ID>
+    <Animal_Name>Sweetman</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Brn Tabby / White</Animal_Color>
+    <Address>19600 SE 260TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516997</Animal_ID>
+    <Animal_Name>Miss Kitty</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>3000 S 204TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A512409</Animal_ID>
+    <Animal_Name>Quincy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>23900 SE KENT KANGLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516266</Animal_ID>
+    <Animal_Name>Angel</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517137</Animal_ID>
+    <Animal_Name>Frankie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Org Tabby</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515665</Animal_ID>
+    <Animal_Name>Moby</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>1000 CENTRAL AVE N</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A500367</Animal_ID>
+    <Animal_Name>Norma</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Dilute Tor</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516374</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>3100 HUNTER CT</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A503767</Animal_ID>
+    <Animal_Name>Oly</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Org Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517000</Animal_ID>
+    <Animal_Name>Obie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>84TH AVE NE &amp; NE 138TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516863</Animal_ID>
+    <Animal_Name>Liam</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>CORNER OF 109TH PL NE &amp; NE 45TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517103</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray / White</Animal_Color>
+    <Address>23700 111TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516118</Animal_ID>
+    <Animal_Name>Cutie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>10000 18TH AVE SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517022</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516982</Animal_ID>
+    <Animal_Name>Atty</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516386</Animal_ID>
+    <Animal_Name>Kingsly</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516739</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Bird</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Chicken</Animal_Breed>
+    <Animal_Color>White / Black</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515789</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Blk Smoke</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515112</Animal_ID>
+    <Animal_Name>Cloud</Animal_Name>
+    <animal_type>Rabbit Sh</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Rabbit Sh</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516796</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby / White</Animal_Color>
+    <Address>28200 SE 424TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516009</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby / Tortie</Animal_Color>
+    <Address>16800 34TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517034</Animal_ID>
+    <Animal_Name>Lacey</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Brown / Black</Animal_Color>
+    <Address>23300 100TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A507893</Animal_ID>
+    <Animal_Name>Vera</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>10000 18TH AVE SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A407026</Animal_ID>
+    <Animal_Name>Kiki</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516106</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>15400 53RD AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A435579</Animal_ID>
+    <Animal_Name>Lilly</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Blue / White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515112</Animal_ID>
+    <Animal_Name>Cloud</Animal_Name>
+    <animal_type>Rabbit Sh</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Rabbit Sh</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A467465</Animal_ID>
+    <Animal_Name>Petal</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517309</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Border Collie / Mix</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address>200 SW ROXBURY ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517052</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>25600 29TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516008</Animal_ID>
+    <Animal_Name>Cassidy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Tortie / White</Animal_Color>
+    <Address>16800 34TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516604</Animal_ID>
+    <Animal_Name>Mason</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>American Pit Bull Terrier</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SE 214TH ST &amp; 120TH AVE. SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516634</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Tortie</Animal_Color>
+    <Address>3000 S 253RD ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516241</Animal_ID>
+    <Animal_Name>Rambo</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>3700 S 256TH CT</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516793</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>11100 SE 256TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517121</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair / Siamese</Animal_Breed>
+    <Animal_Color>White / Seal Pt</Animal_Color>
+    <Address>14000 24TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516744</Animal_ID>
+    <Animal_Name>Baley</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514568</Animal_ID>
+    <Animal_Name>Lulu</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516523</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray</Animal_Color>
+    <Address>3700 S 170TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516744</Animal_ID>
+    <Animal_Name>Baley</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>15500 SE GREEN VALLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A512586</Animal_ID>
+    <Animal_Name>Missy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>White / Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517270</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chow Chow / Akita</Animal_Breed>
+    <Animal_Color>Tan / Gray</Animal_Color>
+    <Address>11000 SE KENT KANGLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515790</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A473316</Animal_ID>
+    <Animal_Name>Buster</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever / Mix</Animal_Breed>
+    <Animal_Color>Apricot</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A449967</Animal_ID>
+    <Animal_Name>Penny</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Calico</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517021</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514735</Animal_ID>
+    <Animal_Name>Jack</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517155</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Gray Tabby</Animal_Color>
+    <Address>26000 186TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517143</Animal_ID>
+    <Animal_Name>Juno</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Siberian Husky</Animal_Breed>
+    <Animal_Color>Red</Animal_Color>
+    <Address>30400 38TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516868</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>13400 MARTIN LUTHER KING JR WAY S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516892</Animal_ID>
+    <Animal_Name>Buster</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever / Pit Bull</Animal_Breed>
+    <Animal_Color>Chocolate</Animal_Color>
+    <Address>25400 109TH CT SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515966</Animal_ID>
+    <Animal_Name>Shadow</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Russian Blue</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>NE 141ST STREET &amp; 84TH AVENUE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517335</Animal_ID>
+    <Animal_Name>Smoky</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>387TH AND 244TH</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516015</Animal_ID>
+    <Animal_Name>Gingerbread</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Pug / Mix</Animal_Breed>
+    <Animal_Color>Fawn / Black</Animal_Color>
+    <Address>14000 SE 240TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516746</Animal_ID>
+    <Animal_Name>Lisa</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray</Animal_Color>
+    <Address>15500 SE GREEN VALLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516118</Animal_ID>
+    <Animal_Name>Cutie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516892</Animal_ID>
+    <Animal_Name>Buster</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever / Pit Bull</Animal_Breed>
+    <Animal_Color>Chocolate</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513804</Animal_ID>
+    <Animal_Name>Cooper</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515128</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>19400 SAWYER RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515533</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Choc Pt</Animal_Color>
+    <Address>800 SW 116TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A480867</Animal_ID>
+    <Animal_Name>Clyde</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Orange / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516759</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Brn Tabby / Black</Animal_Color>
+    <Address>7600 S 126TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A509437</Animal_ID>
+    <Animal_Name>Brodie</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Pit Bull / Labrador Retriever</Animal_Breed>
+    <Animal_Color>Br Brindle / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516802</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>28200 SE 424TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A513223</Animal_ID>
+    <Animal_Name>Sophie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Siamese / Mix</Animal_Breed>
+    <Animal_Color>Gray / White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517060</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>10400 SE 206TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517139</Animal_ID>
+    <Animal_Name>Frannie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby / White</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A509731</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516632</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Org Tabby / White</Animal_Color>
+    <Address>3000 S 253RD ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517163</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Cocker Spaniel</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>20900 108TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A480867</Animal_ID>
+    <Animal_Name>Clyde</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Orange / White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515665</Animal_ID>
+    <Animal_Name>Moby</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A509871</Animal_ID>
+    <Animal_Name>Gertie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516241</Animal_ID>
+    <Animal_Name>Rambo</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516791</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair / Siamese</Animal_Breed>
+    <Animal_Color>Seal Pt / White</Animal_Color>
+    <Address>11100 SE 256TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A458659</Animal_ID>
+    <Animal_Name>Grandma</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Tortie</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516266</Animal_ID>
+    <Animal_Name>Angel</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>2100 S 272ND ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A512752</Animal_ID>
+    <Animal_Name>Bon Jovi</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Dilute Tor</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517251</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Tan / White</Animal_Color>
+    <Address>14700 NE 167TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516623</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>25100 132ND AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517263</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Org Tabby / White</Animal_Color>
+    <Address>1400 MAPLE LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516689</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Org Tabby</Animal_Color>
+    <Address>4200 S 158TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516801</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>White / Brn Tabby</Animal_Color>
+    <Address>28200 SE 424TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516745</Animal_ID>
+    <Animal_Name>Bobby</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516135</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender> </Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Black / Brown</Animal_Color>
+    <Address>21ST AVESW &amp; SW 356TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517275</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>White / Brown</Animal_Color>
+    <Address>13200 SE 208TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517019</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A511967</Animal_ID>
+    <Animal_Name>Sir Charles</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A496205</Animal_ID>
+    <Animal_Name>Missy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514763</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier</Animal_Breed>
+    <Animal_Color>Brown / Black</Animal_Color>
+    <Address>SE 183RD PL &amp; 112TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517125</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>23200 88TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517096</Animal_ID>
+    <Animal_Name>Spencer</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Pit Bull / Boxer</Animal_Breed>
+    <Animal_Color>Br Brindle / White</Animal_Color>
+    <Address>3900 236TH AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516746</Animal_ID>
+    <Animal_Name>Lisa</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514476</Animal_ID>
+    <Animal_Name>Mischief</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>RENTON AVENUE S &amp; HARDIE AVENUE SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517080</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>White / Black</Animal_Color>
+    <Address>3300 S 170TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517332</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515889</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Dog</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>27900 122ND PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516124</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pomeranian</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>18200 73RD AVE NE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516965</Animal_ID>
+    <Animal_Name>Dempsey</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>12500 50TH PL S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516742</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>15500 SE GREEN VALLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516741</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>15500 SE GREEN VALLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517165</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chow Chow</Animal_Breed>
+    <Animal_Color>Buff / Gray</Animal_Color>
+    <Address>26900 109TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516798</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Blk Smoke</Animal_Color>
+    <Address>28200 SE 424TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A506784</Animal_ID>
+    <Animal_Name>Stoney</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Gray / White</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A505007</Animal_ID>
+    <Animal_Name>Ash</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517312</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Miniature Poodle / Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>25400 120TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516784</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Brn Tabby / White</Animal_Color>
+    <Address>3400 HAMPTON WAY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517149</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby / White</Animal_Color>
+    <Address>28400 168TH AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517034</Animal_ID>
+    <Animal_Name>Lacey</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Brown / Black</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515150</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>5300 SOUTHCENTER BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517053</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Dilute Tor</Animal_Color>
+    <Address>25600 29TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517282</Animal_ID>
+    <Animal_Name>Russell</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517313</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Lhasa Apso / Mix</Animal_Breed>
+    <Animal_Color>Brown / Tan</Animal_Color>
+    <Address>25400 120TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515138</Animal_ID>
+    <Animal_Name>Cream</Animal_Name>
+    <animal_type>Dead Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Cream / White</Animal_Color>
+    <Address>1900 DIVISION ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515130</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21300 120TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515131</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>25200 REITH RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514904</Animal_ID>
+    <Animal_Name>Chip</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier / Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515025</Animal_ID>
+    <Animal_Name>Tyler</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SW 120TH STREET &amp; 4TH AVENUE SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516016</Animal_ID>
+    <Animal_Name>Reuben</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Miniature Schnauzer / Miniature Poodle</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>14000 SE 240TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517096</Animal_ID>
+    <Animal_Name>Spencer</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Pit Bull / Boxer</Animal_Breed>
+    <Animal_Color>Br Brindle / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A505004</Animal_ID>
+    <Animal_Name>Rosie</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21615 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516792</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>11100 SE 256TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517151</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Papillon</Animal_Breed>
+    <Animal_Color>White / Black</Animal_Color>
+    <Address>23600 60TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517131</Animal_ID>
+    <Animal_Name>Alley</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Calico</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514690</Animal_ID>
+    <Animal_Name>Dancer</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Tortie</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517018</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A514735</Animal_ID>
+    <Animal_Name>Jack</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address>19600 SE 260TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516804</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>28200 SE 424TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A260496</Animal_ID>
+    <Animal_Name>Rascal</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>White / Gray</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517048</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Apricot / White</Animal_Color>
+    <Address>25600 29TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516799</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>28200 SE 424TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516076</Animal_ID>
+    <Animal_Name>Star</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>4000 S 146TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516361</Animal_ID>
+    <Animal_Name>Jones</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Brn Tabby</Animal_Color>
+    <Address>13300 NE 134TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A515139</Animal_ID>
+    <Animal_Name>Donut</Animal_Name>
+    <animal_type>Dead Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Orange / White</Animal_Color>
+    <Address>1900 DIVISION ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516425</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Brussels Griffon</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>4TH AVENUE &amp; BLANCHARD ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516738</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Bird</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chicken</Animal_Breed>
+    <Animal_Color>Red / Black</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517315</Animal_ID>
+    <Animal_Name>Bear</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Australian Shepherd / Chesapeke Bay Retriever</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>25800 LAKE FENWICK RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517326</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull / Mix</Animal_Breed>
+    <Animal_Color>White / Black</Animal_Color>
+    <Address>11300 SE KENT KANGLEY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516386</Animal_ID>
+    <Animal_Name>Kingsly</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>26600 167TH PL SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516008</Animal_ID>
+    <Animal_Name>Cassidy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Tortie / White</Animal_Color>
+    <Address>12040 NE 85TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516459</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Gray Tabby</Animal_Color>
+    <Address>800 2ND AVE N</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517099</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Orange / White</Animal_Color>
+    <Address>18200 80TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516494</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chihuahua - Long Haired</Animal_Breed>
+    <Animal_Color>White / Brown</Animal_Color>
+    <Address>SE 240TH PLACE &amp; 112TH AVENUE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517314</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brown / Black</Animal_Color>
+    <Address>3200 S 296TH PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A509728</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517020</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unaltered</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Gray</Animal_Color>
+    <Address>21600 64TH AVE S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517129</Animal_ID>
+    <Animal_Name>Melvin</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Brn Tabby / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517146</Animal_ID>
+    <Animal_Name>Fuego</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Chihuahua - Smooth Coated</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>277TH AND MILITARY ROAD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517261</Animal_ID>
+    <Animal_Name>Carlos</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>20325 NE 186TH STREET</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517274</Animal_ID>
+    <Animal_Name>Smokey</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>244TH AND 390TH</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517001</Animal_ID>
+    <Animal_Name>Arlo</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>German Shepherd</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517157</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>175TH AND SE 256TH STREET</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517153</Animal_ID>
+    <Animal_Name>Princess</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Shih Tzu</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>SE 160TH ST AND 128TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A516900</Animal_ID>
+    <Animal_Name>Buddy</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>4527 172ND AVE SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517028</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>American Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>FARWEST DR SW AND 120TH ST SW</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517033</Animal_ID>
+    <Animal_Name>Killian</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>6146 NE 152ND ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517066</Animal_ID>
+    <Animal_Name>Ralph</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>15405 DES MOINES MEMORIAL DRIVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517156</Animal_ID>
+    <Animal_Name>Elvira</Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>BROADWAY AND PIKE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517330</Animal_ID>
+    <Animal_Name>Pookie</Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Female</Animal_Gender>
+    <Animal_Breed>Pomeranian</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>1307 JUNIPER DR. SE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517161</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Maine Coon</Animal_Breed>
+    <Animal_Color>Unknown</Animal_Color>
+    <Address>ORILLA ROAD S</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517287</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Brown / Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A517079</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Brown / White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740325</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Black/Tan</Animal_Color>
+    <Address>E STASSNEY LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740324</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>E STASSNEY LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740331</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan/White</Animal_Color>
+    <Address>E 16TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740328</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>304 E 24TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740343</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>W PALACE PKWY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740342</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>White/Black</Animal_Color>
+    <Address>DOORBELL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A735648</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>4698 ELMONT DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740350</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address>6300 S CONGRESS AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A736577</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Jack Russell Terrier Mix</Animal_Breed>
+    <Animal_Color>Black/Brown</Animal_Color>
+    <Address>MAN O WAR DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740352</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unknown</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Torbie</Animal_Color>
+    <Address>N LAMAR BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740370</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Shih Tzu Mix</Animal_Breed>
+    <Animal_Color>Apricot</Animal_Color>
+    <Address>E 51ST ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740379</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Black Tabby</Animal_Color>
+    <Address>15 SPONBERG DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740374</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Yellow</Animal_Color>
+    <Address>1800 CONGRESS AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740381</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740389</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Calico</Animal_Color>
+    <Address>3501 WERNER</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740394</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair/Labrador Retriever</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>8300 N IH</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740391</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Black Smoke</Animal_Color>
+    <Address>8698 E RIVERSIDE DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740392</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>8901 SPURFLOWER CV</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740393</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>8901 SPURFLOWER CV</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740396</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Black Mouth Cur Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>TARA DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740399</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>German Shepherd Mix</Animal_Breed>
+    <Animal_Color>Sable</Animal_Color>
+    <Address>2508 E RIVERSIDE DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A705625</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Brown/White</Animal_Color>
+    <Address>7201 LEVANDER LOOP</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740416</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Brown/White</Animal_Color>
+    <Address>TAMIL ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740411</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address>5207 PINE PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740425</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Unknown</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>8401 TETBURY CV</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740440</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Fawn</Animal_Color>
+    <Address>SHERWOOD RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740435</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier Mix</Animal_Breed>
+    <Animal_Color>Black/Brown</Animal_Color>
+    <Address>LAKEWAY BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740445</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Black/Calico</Animal_Color>
+    <Address>10601 N FM</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740438</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Calico</Animal_Color>
+    <Address>15450 FM</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740449</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unknown</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby/White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740451</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>906 NALIDE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740382</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A669469</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>2704 PARKER</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740456</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Chocolate/White</Animal_Color>
+    <Address>6700 GROVER AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740384</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740448</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Cream Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740471</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Yellow</Animal_Color>
+    <Address>E ALAMEDA DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740481</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Toy Poodle Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>4713 OAK CLIFF DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740478</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Norwich Terrier Mix</Animal_Breed>
+    <Animal_Color>Tan/White</Animal_Color>
+    <Address>969 AND HUNTERS BEND RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740453</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Golden Retriever Mix</Animal_Breed>
+    <Animal_Color>Yellow</Animal_Color>
+    <Address>35 FRONTAGE ROAD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740454</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address>BISSEL LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740407</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>14969 SWISS DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740470</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Norfolk Terrier Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>6600 FM</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740484</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>1164 MISS KIMBERLYS LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740485</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Beagle Mix</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address>W NORTHCREST BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740386</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog</Animal_Breed>
+    <Animal_Color>White/Black</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740385</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740426</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Border Collie Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>116 E PARSONS ST MANOR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740437</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Longhair/Pomeranian</Animal_Breed>
+    <Animal_Color>White/Tan</Animal_Color>
+    <Address>3930 BEE CAVES</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740508</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Rottweiler Mix</Animal_Breed>
+    <Animal_Color>Black/Tan</Animal_Color>
+    <Address>8011 FIERRO CV</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740487</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Yorkshire Terrier Mix</Animal_Breed>
+    <Animal_Color>White/Black</Animal_Color>
+    <Address>1500 CROSSING PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740405</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740455</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Havanese Mix</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address>BISSEL LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740387</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740529</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Alaskan Husky Mix</Animal_Breed>
+    <Animal_Color>White/Gray</Animal_Color>
+    <Address>1703 ANTLER DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740510</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Dachshund Mix</Animal_Breed>
+    <Animal_Color>Red</Animal_Color>
+    <Address>4710 PRAIRIE DUNES DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740388</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog</Animal_Breed>
+    <Animal_Color>Brown Brindle</Animal_Color>
+    <Address>10802 SAN JOSE AVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740512</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby/White</Animal_Color>
+    <Address>12021 WYCLIFF LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740514</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Norfolk Terrier Mix</Animal_Breed>
+    <Animal_Color>Tan/Black</Animal_Color>
+    <Address>PLEASANT VALLEY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740507</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Miniature Schnauzer Mix</Animal_Breed>
+    <Animal_Color>Gray/White</Animal_Color>
+    <Address>EAST 14TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740515</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Dachshund/Chihuahua Shorthair</Animal_Breed>
+    <Animal_Color>White/Black</Animal_Color>
+    <Address>102 E RUNDBERG LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740516</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>CHUKAR CIR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A439728</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>Red/White</Animal_Color>
+    <Address>8208 GEORGIE TRACE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740523</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>8921 SUN SHOWER BEND</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740504</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Torbie</Animal_Color>
+    <Address>4504 SOJOURNER ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740503</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Orange Tabby/White</Animal_Color>
+    <Address>12001 DESSAU RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A453102</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Border Collie/Labrador Retriever</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>E SPRINGDALE RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740517</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>3201 ESPERANZA CROSSING</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740502</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Orange Tabby/White</Animal_Color>
+    <Address>12001 DESSAU RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A673318</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Fawn/White</Animal_Color>
+    <Address>5800 TECHNI CENTER DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740441</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Boxer</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address>3811 E 12TH ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740538</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Yellow</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740545</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Blue</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740544</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>3101 SHORELINE DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740547</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Dachshund/Rat Terrier</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>E RIVERSIDE DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740588</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Chocolate</Animal_Color>
+    <Address>1555 BASTROP HWY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740589</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>183 AND HERGOTZ
+</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740452</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>18328 GREAT FALLS DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740338</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>TAPPAN LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740556</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Miniature Poodle/Cocker Spaniel</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>6507 E RIVERSIDE DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740335</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>SNEED COVE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740334</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Brown Brindle</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740526</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address>1605 BERENE AVENUE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740557</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>1300 CROSSING PL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740546</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>180 STONEY CREEK</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740560</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>6301 THIRLMARE COURT</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740561</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unknown</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>600 RALPH</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740565</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Longhair Mix</Animal_Breed>
+    <Animal_Color>Black/Tan</Animal_Color>
+    <Address>8105 RESEARCH BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740568</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740567</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>German Shepherd Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>W S SLAUGHTER LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740572</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair/Miniature Pinscher</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>1601 E SLAUGHTER LANE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740564</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Shih Tzu Mix</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address>6032 SIGNAL POINT</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740571</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>100 S BASTROP ST MANOR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740581</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unknown</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Calico</Animal_Color>
+    <Address>14300 N DESSAU RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740582</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Unknown</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address>1607 W PARMER LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740584</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>20412 KEILMAN LN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740596</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>American Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A607606</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Orange Tabby</Animal_Color>
+    <Address>9120 NORTHGATE BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740562</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address>9120 NORTHGATE BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740595</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Tan/Brown</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740580</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address>14407 VARRELMAN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740597</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Alaskan Husky Mix</Animal_Breed>
+    <Animal_Color>White/Brown</Animal_Color>
+    <Address>400 S CONGRESS</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A662148</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>White/Black</Animal_Color>
+    <Address>620 HWY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740462</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address>2250 RIDGEPOINT DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740463</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Blue Tabby/White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740461</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Torbie/White</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740464</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>White/Brown Tabby</Animal_Color>
+    <Address>2250 RIDGEPOINT DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740447</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Beagle Mix</Animal_Breed>
+    <Animal_Color>Tan/Tan</Animal_Color>
+    <Address>PERRY RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740486</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Tan/Brown</Animal_Color>
+    <Address>360 SPICEWOOD SPRINGS ROAD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740587</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Brown Brindle/White</Animal_Color>
+    <Address>1054 SPRINGDALE RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740590</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>183 AND</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740585</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Blue/White</Animal_Color>
+    <Address>35 FRONTAGE RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740592</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740591</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740593</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Black</Animal_Color>
+    <Address> </Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740377</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>American Staffordshire Terrier Mix</Animal_Breed>
+    <Animal_Color>Blue/White</Animal_Color>
+    <Address>E MARTIN LUTHER KING JR BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A739978</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Chihuahua Shorthair Mix</Animal_Breed>
+    <Animal_Color>Tan</Animal_Color>
+    <Address>2935 E SH</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740361</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Pit Bull/Boxer</Animal_Breed>
+    <Animal_Color>Brown/White</Animal_Color>
+    <Address>620 EL SALIDO</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740327</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby</Animal_Color>
+    <Address>1833 CHEDDAR LOOP</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740412</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Basset Hound/Irish Wolfhound</Animal_Breed>
+    <Animal_Color>Black/Tan</Animal_Color>
+    <Address>2124 BURTON</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740611</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>American Pit Bull Terrier</Animal_Breed>
+    <Animal_Color>Red</Animal_Color>
+    <Address>183 AUSTIN</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740573</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull</Animal_Breed>
+    <Animal_Color>White/Tan</Animal_Color>
+    <Address>8431 BANGOR BEND</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740465</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Blue Tabby</Animal_Color>
+    <Address>10205 COPPER RIDGE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A707120</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Miniature Poodle Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>FINCH TRL</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740615</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Brown Tabby/White</Animal_Color>
+    <Address>REGENCY DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740628</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>White</Animal_Color>
+    <Address>ALAMEDA TRACE CIR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740614</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Blue</Animal_Color>
+    <Address>REGENCY DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A729633</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Blue/White</Animal_Color>
+    <Address>5808 MCKINNEY FALLS PKWY</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740622</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Australian Cattle Dog Mix</Animal_Breed>
+    <Animal_Color>White/White</Animal_Color>
+    <Address>E DESSAU RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740537</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Manx Mix</Animal_Breed>
+    <Animal_Color>Calico Point</Animal_Color>
+    <Address>2400 S 1ST ST</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A738391</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Great Pyrenees/Plott Hound</Animal_Breed>
+    <Animal_Color>White/Brown Brindle</Animal_Color>
+    <Address>PUEBLA DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740621</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Domestic Shorthair Mix</Animal_Breed>
+    <Animal_Color>Orange Tabby</Animal_Color>
+    <Address>11032 TANGLERIDGE CIRCLE</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740617</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Cat</animal_type>
+    <Animal_Gender>Intact Female</Animal_Gender>
+    <Animal_Breed>Domestic Longhair Mix</Animal_Breed>
+    <Animal_Color>Orange Tabby</Animal_Color>
+    <Address>VON QUINTUS RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740627</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Neutered Male</Animal_Gender>
+    <Animal_Breed>Rat Terrier Mix</Animal_Breed>
+    <Animal_Color>Tricolor</Animal_Color>
+    <Address>W BURNET RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740620</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Pit Bull Mix</Animal_Breed>
+    <Animal_Color>Blue/White</Animal_Color>
+    <Address>290 FITZHUGH RD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740630</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Labrador Retriever Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>6510 PEVENSEY DR</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740558</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Intact Male</Animal_Gender>
+    <Animal_Breed>Dachshund Mix</Animal_Breed>
+    <Animal_Color>Brown</Animal_Color>
+    <Address>9061 RESEARCH BLVD</Address>
+  </pet>
+  <pet>
+    <Animal_ID>A740629</Animal_ID>
+    <Animal_Name> Unavailable </Animal_Name>
+    <animal_type>Dog</animal_type>
+    <Animal_Gender>Spayed Female</Animal_Gender>
+    <Animal_Breed>Australian Shepherd Mix</Animal_Breed>
+    <Animal_Color>Black/White</Animal_Color>
+    <Address> </Address>
+  </pet>
+</animals>
