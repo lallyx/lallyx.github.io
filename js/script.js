@@ -1,3 +1,29 @@
+var apiKey = 'hj76uu4mz63gee298cjjpyue';
+
+function getty(breed){
+
+$.ajax(
+    {
+        type:'GET',
+        url: "https://api.gettyimages.com/v3/search/images/creative?phrase="+breed,
+         beforeSend: function (request)
+            {
+                request.setRequestHeader("Api-Key", apiKey);
+            }})
+    .done(function(data){
+        console.log("Success with data")
+          alert(breed)
+           //$("#cacca").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");
+        
+    })
+    .fail(function(data){
+        alert(JSON.stringify(data,2))
+    });
+}
+
+
+
+
 $(function(){
       $("#menu").load("menu.html"); 
     });
@@ -436,18 +462,18 @@ function search_by_single(xmlDoc, item, len, type)
 function print_table(xml, type) 
 {
     var i=0;
-    var newRow, newCell, newText, value;
+    var newRow, newCell, newText, value, a, idmio;
     var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
 
     var xmlDoc = xml.responseXML;
     
-    var tutto = xmlDoc.getElementsByTagName("Animal_ID").length;
+    var len = xmlDoc.getElementsByTagName("Animal_ID").length;
 
     var id_list = document.getElementById('id_list');
 
     switch (type) {
     case "all":
-        for (i=0; i<tutto; i++)
+        for (i=0; i<len; i++)
     {
         value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
         newRow   = tableRef.insertRow(tableRef.rows.length);
@@ -481,6 +507,7 @@ function print_table(xml, type)
         newCell.appendChild(newText);
         populate_datalist(value, "breed_list");
         
+
         value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
         newCell  = newRow.insertCell(-1);
         newText  = document.createTextNode(value);
@@ -491,18 +518,30 @@ function print_table(xml, type)
         newCell  = newRow.insertCell(-1);
         newText  = document.createTextNode(value);
         newCell.appendChild(newText);
+
+        newCell  = newRow.insertCell(-1);
+        a = document.createElement('button');
+        value = document.createTextNode("Image");
+        a.appendChild(value);
+        breed= xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
+        idmio=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
+        a.id = breed;
+        newCell.appendChild(a);
+
+        document.getElementById(idmio).addEventListener("click", function(){ getty(idmio);}); //CHECKA QUA
+
     }
         break;
     case "dogs":
-        print_data(xmlDoc, tutto, tableRef,"Dog");
+        print_data(xmlDoc, len, tableRef,"Dog");
 
         break;
     case "cats":
-        print_data(xmlDoc, tutto, tableRef,"Cat");
+        print_data(xmlDoc, len, tableRef,"Cat");
 
         break;
     case "birds":
-        print_data(xmlDoc, tutto, tableRef,"Bird");
+        print_data(xmlDoc, len, tableRef,"Bird");
         
         break;}
     }
