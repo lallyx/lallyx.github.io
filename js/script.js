@@ -1,4 +1,4 @@
-var apiKey = 'hj76uu4mz63gee298cjjpyue'; 
+var apiKey = 'hj76uu4mz63gee298cjjpyue';
 
 function getty(event){
 var breed=event.data.param;
@@ -59,11 +59,84 @@ function add_cell(value)
     xhttp.send(); 
     };
 
-function search_by_single(xmlDoc, item, len, type)
+function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, type1, type2, type3, type4, type5)
+{
+  var check1, check2, check3, check4, check5;
+  var n1, n2, n3, n4, n5;
+  var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
+  switch (src_type){
+    case 1:
+          for (i=0; i<len; i++)
+          {
+              check1 = xmlDoc.getElementsByTagName(item1)[i].childNodes[0].nodeValue;;
+              n1=check1.includes(type1);
+              if (n1==true)
+                {print(xmlDoc, tableRef, i, 0, 0);}
+          }
+          break;
+    case 2:
+          for (i=0; i<len; i++)
+            {
+            check1 = xmlDoc.getElementsByTagName(item1)[i].childNodes[0].nodeValue;;
+            check2 = xmlDoc.getElementsByTagName(item2)[i].childNodes[0].nodeValue;;
+              n1=check1.includes(type1);
+              n2=check2.includes(type2);
+              if (n1==true && n2 ==true)
+                {
+                print(xmlDoc, tableRef, i, 0, 0);
+              }
+            }break;
+    case 3:
+          for (i=0; i<len; i++)
+            {
+            check1 = xmlDoc.getElementsByTagName(item1)[i].childNodes[0].nodeValue;;
+            check2 = xmlDoc.getElementsByTagName(item2)[i].childNodes[0].nodeValue;;
+            check3 = xmlDoc.getElementsByTagName(item3)[i].childNodes[0].nodeValue;;
+              n1=check1.includes(type1);
+              n2=check2.includes(type2);
+              n3=check3.includes(type3);
+              if (n1==true && n2==true && n3== true)
+                {print(xmlDoc, tableRef, i, 0, 0);}
+            }break;
+    case 4:
+          for (i=0; i<len; i++)
+            {
+            check1 = xmlDoc.getElementsByTagName(item1)[i].childNodes[0].nodeValue;;
+            check2 = xmlDoc.getElementsByTagName(item2)[i].childNodes[0].nodeValue;;
+            check3 = xmlDoc.getElementsByTagName(item3)[i].childNodes[0].nodeValue;;
+            check4 = xmlDoc.getElementsByTagName(item4)[i].childNodes[0].nodeValue;;
+              n1=check1.includes(type1);
+              n2=check2.includes(type2);
+              n3=check3.includes(type3);
+              n4=check4.includes(type4);
+              if (n1==true && n2==true && n3==true && n4==true)
+                {print(xmlDoc, tableRef, i, 0, 0);}
+            }break;
+    case 5:
+          for (i=0; i<len; i++)
+            {
+            check1 = xmlDoc.getElementsByTagName(item1)[i].childNodes[0].nodeValue;;
+            check2 = xmlDoc.getElementsByTagName(item2)[i].childNodes[0].nodeValue;;
+            check3 = xmlDoc.getElementsByTagName(item3)[i].childNodes[0].nodeValue;;
+            check4 = xmlDoc.getElementsByTagName(item4)[i].childNodes[0].nodeValue;;
+            check5 = xmlDoc.getElementsByTagName(item5)[i].childNodes[0].nodeValue;;
+              n1=check1.includes(type1);
+              n2=check2.includes(type2);
+              n3=check3.includes(type3);
+              n4=check4.includes(type4);
+              n5=check5.includes(type5);
+              if (n1==true && n2==true && n3==true && n4==true && n5==true)
+                {
+                print(xmlDoc, tableRef, i, 0, 0);
+                }
+            }break;
+  } 
+};
+/*function search_by_single(xmlDoc, src_type, item, len, type)
         {   var check;
             var n;
             var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
-
+            if (src_type == 1){
             for (i=0; i<len; i++)
             {
   
@@ -75,6 +148,7 @@ function search_by_single(xmlDoc, item, len, type)
                 print(xmlDoc, tableRef, i, 0, 0);
               }
             }
+          }
         };
 
         function search_by_double(xmlDoc, item1, item2, len, type1, type2)
@@ -178,7 +252,7 @@ function search_by_single(xmlDoc, item, len, type)
               }
             }
         };
-
+*/
       function search_init(xml)
       {
         empty_table();
@@ -213,133 +287,148 @@ function search_by_single(xmlDoc, item, len, type)
         //Single Search Cases
 
         if (name =="" && type == "" && gender =="" && breed =="" && color =="")
-        { item = "Animal_ID"; search_by_single(xmlDoc, item, len, id); return;} // search by Animal ID
+        { item = "Animal_ID"; search_query(xmlDoc, 1, item, "", "", "", "", len, id, "", "", "", ""); return;} // search by Animal ID
         if (id =="" && type == "" && gender =="" && breed =="" && color =="")
-        {item = "Animal_Name";search_by_single(xmlDoc, item, len, name);return;} //search by Animal Name
+        {item = "Animal_Name";search_query(xmlDoc, 1, item, "", "", "", "", len, name, "", "", "", "");return;} //search by Animal Name
         if ( name =="" && gender =="" && breed =="" && color =="")
-        {item = "animal_type"; search_by_single(xmlDoc, item, len, type);return;} //search by Animal Type
+        {item = "animal_type"; search_query(xmlDoc, 1, item, "", "", "", "", len, type, "", "", "", "");return;} //search by Animal Type
         if ( name =="" && type =="" && breed =="" && color =="")
-        {item = "Animal_Gender";search_by_single(xmlDoc, item, len, gender);return;} // search by Animal Gender
+        {item = "Animal_Gender";search_query(xmlDoc, 1, item, "", "", "", "", len, gender, "", "", "", "");return;} // search by Animal Gender
         if ( name =="" && type =="" && gender =="" && color =="")
-        {item = "Animal_Breed"; search_by_single(xmlDoc, item, len, breed);return;} // search by Animal Breed
+        {item = "Animal_Breed"; search_query(xmlDoc, 1, item, "", "", "", "", len, breed, "", "", "", "");return;} // search by Animal Breed
         if ( name =="" && type =="" && gender =="" && breed =="")
-        {item = "Animal_Color";search_by_single(xmlDoc, item, len, color);return;} // saerch by Animal Color
+        {item = "Animal_Color";search_query(xmlDoc, 1, item, "", "", "", "", len, color, "", "", "", "");return;} // saerch by Animal Color
 
 
         //Search Cases by 5 items
           if ( name !=="" && type!=="" && gender!=="" && breed !== "" && color!=="")
           {item1="Animal_Name"; item2="animal_type"; item3="Animal_Gender"; item4="Animal_Breed"; item5="Animal_Color"; 
-          search_by_five(xmlDoc, item1, item2, item3, item4, item5, len, name, type, gender, breed, color);
+          search_query(xmlDoc, 5, item1, item2, item3, item4, item5, len, name, type, gender, breed, color);
           return;
           }
         //Search Cases by 4 items
         //search by Name, Type, Gender and Breed
         if ( name !=="" && type!=="" && gender!=="" && breed !== "")
           {item1="Animal_Name"; item2="animal_type"; item3="Animal_Gender"; item4="Animal_Breed"; 
-          search_by_four(xmlDoc, item1, item2, item3, item4, len, name, type, gender, breed);
+          search_query(xmlDoc, 4, item1, item2, item3, item4, "", len, name, type, gender, breed, "");
           return;
           }
           //search by Name, Type, Gender and Color
           if ( name !=="" && type!=="" && gender!=="" && color !== "")
           {item1="Animal_Name"; item2="animal_type"; item3="Animal_Gender"; item4="Animal_Color"; 
-          search_by_four(xmlDoc, item1, item2, item3, item4, len, name, type, gender, color);
+          search_query(xmlDoc, 4, item1, item2, item3, item4, "", len, name, type, gender, color, "");
           return;
           } 
           // Search by type, gender, breed, color
           if ( breed !=="" && type!=="" && gender!=="" && color !== "")
           {item1="Animal_Breed"; item2="animal_type"; item3="Animal_Gender"; item4="Animal_Color"; 
-          search_by_four(xmlDoc, item1, item2, item3, item4, len, breed, type, gender, color);
+          search_query(xmlDoc, 4, item1, item2, item3, item4, "", len, breed, type, gender, color, "");
           return;
           }
           // Search by type, gender, breed, color
           if ( breed !=="" && name!=="" && gender!=="" && color !== "")
           {item1="Animal_Breed"; item2="Animal_Name"; item3="Animal_Gender"; item4="Animal_Color"; 
-          search_by_four(xmlDoc, item1, item2, item3, item4, len, breed, name, gender, color);
+           search_query(xmlDoc, 4, item1, item2, item3, item4, "", len, breed, name, gender, color, "");
           return;
           }  
 
         //Double Search Cases
         //search by Type and Gender
         if (name =="" && breed =="" && color =="")
-          {item1="animal_type"; item2="Animal_Gender"; 
-          search_by_double(xmlDoc, item1, item2, len, type, gender);return;} 
-
+          {item1="animal_type"; item2="Animal_Gender";  
+          search_query(xmlDoc, 2, item1, item2, "", "", "", len, type, gender, "", "", "");
+          return;} 
           //search by Type and Breed
         if (name =="" && gender =="" && color =="")
           {item1="animal_type"; item2="Animal_Breed"; 
-          search_by_double(xmlDoc, item1, item2, len, type, breed);return;} 
+          search_query(xmlDoc, 2, item1, item2, "", "", "", len, type, breed, "", "", "");
+          return;} 
 
           //search by Type and Color
         if (name =="" && gender =="" && breed =="")
           {item1="animal_type"; item2="Animal_Color"; 
-          search_by_double(xmlDoc, item1, item2, len, type, color);return;} 
+          search_query(xmlDoc, 2, item1, item2, "", "", "", len, type, color, "", "", "");
+          return;} 
 
           //search by Name and type
         if (gender =="" && breed =="" && color =="")
           {item1="Animal_Name"; item2="animal_type"; 
-          search_by_double(xmlDoc, item1, item2, len, name, type);return;}
+          search_query(xmlDoc, 2, item1, item2, "", "", "", len, name, type, "", "", "");
+          return;}
 
           //search by Name and Color
           if (gender =="" && breed =="" && type =="")
           {item1="Animal_Name"; 
           item2="Animal_Color"; 
-          search_by_double(xmlDoc, item1, item2, len, name, color);return;} 
+          search_query(xmlDoc, 2, item1, item2, "", "", "", len, name, color, "", "", "");
+          return;} 
 
           //search by Name and Breed
           if (gender =="" && type =="" && color =="")
           {item1="Animal_Name"; item2="Animal_Breed"; 
-          search_by_double(xmlDoc, item1, item2, len, name, breed);return;} 
+            search_query(xmlDoc, 2, item1, item2, "", "", "", len, name, breed, "", "", "");
+          return;} 
           
           // Search by Name and Gender
           if (type =="" && breed =="" && color =="")
           {item1="Animal_Name"; item2="Animal_Gender"; 
-          search_by_double(xmlDoc, item1, item2, len, name, gender);return;} 
+          search_query(xmlDoc, 2, item1, item2, "", "", "", len, name, gender, "", "", "");
+          return;} 
           
           // Search by Gender and Breed
           if (type =="" && name =="" && color =="")
           {item1="Animal_Breed"; item2="Animal_Gender"; 
-          search_by_double(xmlDoc, item1, item2, len, breed, gender);return;} 
+        search_query(xmlDoc, 2, item1, item2, "", "", "", len, breed, gender, "", "", "");
+          return;} 
           
           // Search by Color and Gender
           if (type =="" && breed =="" && name =="")
           {item1="Animal_Color"; item2="Animal_Gender"; 
-          search_by_double(xmlDoc, item1, item2, len, color, gender);return;} 
+        search_query(xmlDoc, 2, item1, item2, "", "", "", len, color, gender, "", "", "");
+          return;} 
 
           // Triple Search Cases
            //search by Name, Type and Gender
         if ( name !=="" && type !== "" && gender !== "")
           {item1="Animal_Name"; item2="animal_type"; item3="Animal_Gender"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, name, type, gender);return;}
+          search_query(xmlDoc, 3, item1, item2, item3, "", "", len, name, type, gender, "", "");
+          return;}
           //search by Name, Type and Breed
         if ( name !=="" && type !== "" && breed !== "")
           {item1="Animal_Name"; item2="animal_type"; item3="Animal_Breed"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, name, type, breed);return;} 
+        search_query(xmlDoc, 3, item1, item2, item3, "", "", len, name, type, breed, "", "");
+          return;} 
 
           //search by Name, Type and Color
         if ( name !=="" && type !== "" && color !== "")
-          {item1="Animal_Name"; item2="animal_type"; item3="Animal_Color"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, name, type, color);return;} 
+          {item1="Animal_Name"; item2="animal_type"; item3="Animal_Color";
+        search_query(xmlDoc, 3, item1, item2, item3, "", "", len, name, type, color, "", "");
+          return;} 
 
           //search by Name, Gender and Breed
         if ( name !=="" && gender !== "" && breed !== "")
           {item1="Animal_Name"; item2="Animal_Gender"; item3="Animal_Breed"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, name, gender, breed);return;} 
+          search_query(xmlDoc, 3, item1, item2, item3, "", "", len, name, gender, breed, "", "");
+          return;} 
 
           //search by Name, Gender and Color
         if ( name !=="" && gender !== "" && color !== "")
           {item1="Animal_Name"; item2="Animal_Gender"; item3="Animal_Color"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, name, gender, color);return;} 
+          search_query(xmlDoc, 3, item1, item2, item3, "", "", len, name, gender, color, "", "");
+          return;} 
 
           //search by Name, Breed and Color
         if ( name !=="" && breed !== "" && color !== "")
           {item1="Animal_Name"; item2="Animal_Breed"; item3="Animal_Color"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, name, breed, color);return;} 
+        search_query(xmlDoc, 3, item1, item2, item3, "", "", len, name, breed, color, "", "");
+          return;} 
           //search by Type, Gender and Breed
         if ( type !=="" && gender !== "" && breed !== "")
           {item1="animal_type"; item2="Animal_Gender"; item3="Animal_Breed"; 
-          search_by_triple(xmlDoc, item1, item2, item3, len, type, gender, breed);return;} 
+        search_query(xmlDoc, 3, item1, item2, item3, "", "", len, type, gender, breed, "", "");
+          return;} 
          
-          
+      
     }; 
 
 
@@ -378,37 +467,27 @@ function print_table(xml, type)
         for (i=0; i<len; i++)
     {
         print(xmlDoc, tableRef, i, 1, 0);
-    }
-        break;
+    }break;
     case "dogs":
-        for (i=0; i<length; i++)
+        for (i=0; i<len; i++)
     {   
         type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
         if (type =="Dog" || type=="Dead Dog")
-        {
-        
-        print( xmlDoc, tableRef, i, 0, 1, "Dog");
-      }
+        {print( xmlDoc, tableRef, i, 0, 1, "Dog");}
     }break;
     case "cats":
-        for (i=0; i<length; i++)
-    {   
+        for (i=0; i<len; i++)
+    {    
         type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
         if (type =="Cat" || type=="Dead Cat")
-        {
-        print( xmlDoc, tableRef, i, 0, 1, "Cat");
-
-      }
+        {print( xmlDoc, tableRef, i, 0, 1, "Cat");}
     }break;
     case "birds":
-        for (i=0; i<length; i++)
+        for (i=0; i<len; i++)
     {   
         type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
         if (type =="Bird")
-        {
-        print( xmlDoc, tableRef, i, 0, 1, "Bird");
-        
-      }
+        {print( xmlDoc, tableRef, i, 0, 1, "Bird");}
     }break;
     }
   }
