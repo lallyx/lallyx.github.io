@@ -16,7 +16,16 @@
     <body>
 
    <div id="menu"></div> 
+ <div id="menu" style="padding:20px;"></div> 
 
+       <div id="modal1" class="modal">
+    <div class="modal-content">
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
     <div class="container" style="padding-left:100px">
       <div class="row">
     
@@ -42,6 +51,7 @@
 
     </body>
 <script type="text/javascript">
+$('#modal1').modal();
 var xhttp = new XMLHttpRequest();
 
     xhttp.onreadystatechange = function() 

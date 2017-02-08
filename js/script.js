@@ -72,27 +72,7 @@ function search_by_single(xmlDoc, item, len, type)
 
               if (n==true)
                 {
-                value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-                newRow   = tableRef.insertRow(tableRef.rows.length);
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-                 add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-                add_cell(value);
+                print(xmlDoc, tableRef, i, 0, 0);
               }
             }
         };
@@ -114,27 +94,7 @@ function search_by_single(xmlDoc, item, len, type)
 
               if (n1==true && n2 ==true)
                 {
-                value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-                newRow   = tableRef.insertRow(tableRef.rows.length);
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-                 add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-                add_cell(value);
+                print(xmlDoc, tableRef, i, 0, 0);
               }
             }
         };
@@ -158,27 +118,7 @@ function search_by_single(xmlDoc, item, len, type)
 
               if (n1==true && n2==true && n3== true)
                 {
-                value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-                newRow   = tableRef.insertRow(tableRef.rows.length);
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-                 add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-                add_cell(value);
+                print(xmlDoc, tableRef, i, 0, 0);
               }
             }
           };
@@ -205,27 +145,7 @@ function search_by_single(xmlDoc, item, len, type)
 
               if (n1==true && n2==true && n3==true && n4==true)
                 {
-                value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-                newRow   = tableRef.insertRow(tableRef.rows.length);
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-                 add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-                add_cell(value);
+                print(xmlDoc, tableRef, i, 0, 0);
               }
             }
         };
@@ -252,27 +172,9 @@ function search_by_single(xmlDoc, item, len, type)
 
               if (n1==true && n2==true && n3==true && n4==true && n5==true)
                 {
-                value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-                newRow   = tableRef.insertRow(tableRef.rows.length);
-                add_cell(value);
+                print(xmlDoc, tableRef, i, 0, 0);
 
-                value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-                add_cell(value);
 
-                value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-                 add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-                add_cell(value);
-
-                value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-                add_cell(value);
               }
             }
         };
@@ -462,210 +364,100 @@ function search_by_single(xmlDoc, item, len, type)
 function print_table(xml, type) 
 {
     var i=0;
-    var newRow, newCell, newText, value, a, idmio, an_type;
+    var newRow, newCell, newText, value, a, an_id, an_type;
     var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
 
     var xmlDoc = xml.responseXML;
     
     var len = xmlDoc.getElementsByTagName("Animal_ID").length;
 
-    var id_list = document.getElementById('id_list');
+    //var id_list = document.getElementById('id_list');
 
     switch (type) {
     case "all":
         for (i=0; i<len; i++)
     {
-        value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-        newRow   = tableRef.insertRow(tableRef.rows.length);
-        newCell  = newRow.insertCell(0);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        populate_datalist(value, "id_list");
-        newRow.id=value;
-        
-
-        value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        populate_datalist(value, "name_list");
-
-        value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        populate_datalist(value, "type_list");
-        an_type= value;
-
-        value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        populate_datalist(value, "gender_list");
-
-        value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        populate_datalist(value, "breed_list");
-        
-
-        value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        populate_datalist(value, "color_list");
-
-        value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-
-        newCell  = newRow.insertCell(-1);
-        a = document.createElement('button');
-        value = document.createTextNode("Image");
-        a.appendChild(value);
-        breed= xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-        idmio=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-        a.id = breed;
-        breed = an_type + " " + breed;
-        newCell.appendChild(a);
-        $("#"+idmio).bind('click', { param: breed }, getty);
-        
-
+        print(xmlDoc, tableRef, i, 1, 0);
     }
         break;
     case "dogs":
-        print_data(xmlDoc, len, tableRef,"Dog");
-
-        break;
-    case "cats":
-        print_data(xmlDoc, len, tableRef,"Cat");
-
-        break;
-    case "birds":
-        print_data(xmlDoc, len, tableRef,"Bird");
-        
-        break;}
-    }
-
-function print_data(xmlDoc,length, tableRef, type)
-{
-  var value, newRow, newText;
-  switch (type) {
-    case "Bird":
-    for (i=0; i<length; i++)
-    {   
-        type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
-        if (type =="Bird")
-        {
-        value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-        newRow   = tableRef.insertRow(tableRef.rows.length);
-    
-        value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-       
-
-        value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        
-        value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        
-        
-        value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-
-        value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-      }
-    }break;
-    case "Dog":
-    for (i=0; i<length; i++)
+        for (i=0; i<length; i++)
     {   
         type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
         if (type =="Dog" || type=="Dead Dog")
         {
-        value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-        newRow   = tableRef.insertRow(tableRef.rows.length);
-    
-        value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-       
-
-        value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
         
-        value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        
-        
-        value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-
-        value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
+        print( xmlDoc, tableRef, i, 0, 1, "Dog");
       }
     }break;
-case "Cat":
-    for (i=0; i<length; i++)
+    case "cats":
+        for (i=0; i<length; i++)
     {   
         type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
         if (type =="Cat" || type=="Dead Cat")
         {
-        value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
-        newRow   = tableRef.insertRow(tableRef.rows.length);
-    
-        value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-       
+        print( xmlDoc, tableRef, i, 0, 1, "Cat");
 
-        value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        
-        value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-        
-        
-        value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
-
-        value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
-        newCell  = newRow.insertCell(-1);
-        newText  = document.createTextNode(value);
-        newCell.appendChild(newText);
       }
     }break;
-
-
+    case "birds":
+        for (i=0; i<length; i++)
+    {   
+        type= value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;; 
+        if (type =="Bird")
+        {
+        print( xmlDoc, tableRef, i, 0, 1, "Bird");
+        
+      }
+    }break;
+    }
   }
-  
+
+function print(xmlDoc, tableRef, i, pop, sing, specific_an){
+
+  var value, breed, an_id, an_type;
+
+
+                value=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
+                newRow   = tableRef.insertRow(tableRef.rows.length);
+                add_cell(value);
+                if (pop == 1){ populate_datalist(value, "id_list");}
+                newRow.id=value;
+
+                
+                value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
+                add_cell(value);
+                if (pop == 1){ populate_datalist(value, "name_list");}
+
+                if(sing == 0)
+                  {value=xmlDoc.getElementsByTagName("animal_type")[i].childNodes[0].nodeValue;;
+                add_cell(value);
+                an_type=value;
+                if (pop == 1){ populate_datalist(value, "type_list");}
+                }
+                if(specific_an=="Dog"){an_type="Dog";}
+                if(specific_an=="Cat"){an_type="Cat";}
+                if(specific_an=="Bird"){an_type="Bird";}
+
+                value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
+                 add_cell(value);
+                if (pop == 1){ populate_datalist(value, "gender_list");}
+
+                value=xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
+                add_cell(value);
+                breed=value;
+                if (pop == 1){ populate_datalist(value, "breed_list");}
+
+                value=xmlDoc.getElementsByTagName("Animal_Color")[i].childNodes[0].nodeValue;;
+                add_cell(value);
+                if (pop == 1){populate_datalist(value, "color_list");}
+
+                value=xmlDoc.getElementsByTagName("Address")[i].childNodes[0].nodeValue;;
+                add_cell(value);
+
+                breed= xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
+    
+        an_id=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
+        breed = an_type + " " + breed;
+        $("#"+an_id).bind('click', { param: breed }, getty);
 }

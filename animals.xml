@@ -41,7 +41,7 @@
     <Animal_Name>Oscar</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>178TH AVE NE AND NE 8TH PL</Address>
   </pet>
@@ -59,7 +59,7 @@
     <Animal_Name>Emmett</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>47500 288TH AVE SE</Address>
   </pet>
@@ -140,7 +140,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>White / Brown</Animal_Color>
     <Address>12800 SE 282ND WAY</Address>
   </pet>
@@ -392,7 +392,7 @@
     <Animal_Name>Robert</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>WILDWOOD APARTMENT COMPLEX</Address>
   </pet>
@@ -653,7 +653,7 @@
     <Animal_Name>Sootie</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender> </Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>5700 200TH ST SW</Address>
   </pet>
@@ -923,7 +923,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Female</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address> </Address>
   </pet>
@@ -986,7 +986,7 @@
     <Animal_Name>Ralph</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>18530 SE 258TH</Address>
   </pet>
@@ -1328,7 +1328,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Spayed Female</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair / Siamese</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair / Siamese</Animal_Breed>
     <Animal_Color>White / Seal Pt</Animal_Color>
     <Address>14000 24TH AVE S</Address>
   </pet>
@@ -1481,7 +1481,7 @@
     <Animal_Name>Smoky</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>387TH AND 244TH</Address>
   </pet>
@@ -1562,7 +1562,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Dead Cat</animal_type>
     <Animal_Gender>Female</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Brn Tabby / Black</Animal_Color>
     <Address>7600 S 126TH ST</Address>
   </pet>
@@ -1616,7 +1616,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Neutered Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Brn Tabby</Animal_Color>
     <Address> </Address>
   </pet>
@@ -1751,7 +1751,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Spayed Female</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>White / Brn Tabby</Animal_Color>
     <Address>28200 SE 424TH ST</Address>
   </pet>
@@ -1805,7 +1805,7 @@
     <Animal_Name>Missy</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Spayed Female</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>White</Animal_Color>
     <Address>21615 64TH AVE S</Address>
   </pet>
@@ -1859,7 +1859,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Unaltered</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>White / Black</Animal_Color>
     <Address>3300 S 170TH ST</Address>
   </pet>
@@ -1940,7 +1940,7 @@
     <Animal_Name>Stoney</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Neutered Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Gray / White</Animal_Color>
     <Address>21615 64TH AVE S</Address>
   </pet>
@@ -2039,7 +2039,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Dead Cat</animal_type>
     <Animal_Gender>Neutered Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Black</Animal_Color>
     <Address>21300 120TH PL SE</Address>
   </pet>
@@ -2165,7 +2165,7 @@
     <Animal_Name>Rascal</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Neutered Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>White / Gray</Animal_Color>
     <Address> </Address>
   </pet>
@@ -2273,7 +2273,7 @@
     <Animal_Name> Unavailable </Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Neutered Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Gray Tabby</Animal_Color>
     <Address>800 2ND AVE N</Address>
   </pet>
@@ -2354,7 +2354,7 @@
     <Animal_Name>Smokey</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>244TH AND 390TH</Address>
   </pet>
@@ -2417,7 +2417,7 @@
     <Animal_Name>Ralph</Animal_Name>
     <animal_type>Cat</animal_type>
     <Animal_Gender>Male</Animal_Gender>
-    <Animal_Breed>Domestic Mediumhair</Animal_Breed>
+    <Animal_Breed>Domestic Medium hair</Animal_Breed>
     <Animal_Color>Unknown</Animal_Color>
     <Address>15405 DES MOINES MEMORIAL DRIVE</Address>
   </pet>
