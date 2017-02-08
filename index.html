@@ -17,9 +17,20 @@
 
        <div id="menu" style="padding:20px;"></div> 
 
+       <div id="modal1" class="modal">
+    <div class="modal-content">
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+
+
     <div class="container" style="padding:10px; margin-top:100px;">
       <div class="row">
-    
+    <div id="pic"> </div>
       <div class="col s2">
       <input id="search_id" list="id_list" placeholder="ID" onkeypress="trigg_ent(event)">
       </input>
@@ -78,7 +89,8 @@
 
     </body>
 <script type="text/javascript">
-
+ $('#modal1').modal();
+ 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() 
         {

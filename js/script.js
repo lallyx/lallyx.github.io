@@ -1,7 +1,7 @@
 var apiKey = 'hj76uu4mz63gee298cjjpyue';
 
-function getty(breed){
-
+function getty(event){
+var breed=event.data.param;
 $.ajax(
     {
         type:'GET',
@@ -12,9 +12,8 @@ $.ajax(
             }})
     .done(function(data){
         console.log("Success with data")
-          alert(breed)
-           //$("#cacca").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");
-        
+           $(".modal-content").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");
+           $('#modal1').modal('open');
     })
     .fail(function(data){
         alert(JSON.stringify(data,2))
@@ -462,7 +461,7 @@ function search_by_single(xmlDoc, item, len, type)
 function print_table(xml, type) 
 {
     var i=0;
-    var newRow, newCell, newText, value, a, idmio;
+    var newRow, newCell, newText, value, a, idmio, an_type;
     var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
 
     var xmlDoc = xml.responseXML;
@@ -482,6 +481,7 @@ function print_table(xml, type)
         newCell.appendChild(newText);
         populate_datalist(value, "id_list");
         newRow.id=value;
+        
 
         value=xmlDoc.getElementsByTagName("Animal_Name")[i].childNodes[0].nodeValue;;
         newCell  = newRow.insertCell(-1);
@@ -494,6 +494,7 @@ function print_table(xml, type)
         newText  = document.createTextNode(value);
         newCell.appendChild(newText);
         populate_datalist(value, "type_list");
+        an_type= value;
 
         value=xmlDoc.getElementsByTagName("Animal_Gender")[i].childNodes[0].nodeValue;;
         newCell  = newRow.insertCell(-1);
@@ -526,9 +527,10 @@ function print_table(xml, type)
         breed= xmlDoc.getElementsByTagName("Animal_Breed")[i].childNodes[0].nodeValue;;
         idmio=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
         a.id = breed;
+        breed = an_type + " " + breed;
         newCell.appendChild(a);
-
-        document.getElementById(idmio).addEventListener("click", function(){ getty(idmio);}); //CHECKA QUA
+        $("#"+idmio).bind('click', { param: breed }, getty);
+        
 
     }
         break;
