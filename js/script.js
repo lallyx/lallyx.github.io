@@ -12,6 +12,7 @@ $.ajax(
             }})
     .done(function(data){
         console.log("Success with data")
+          $(".modal-content").empty();
            $(".modal-content").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");
            $('#modal1').modal('open');
     })
