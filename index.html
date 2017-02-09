@@ -15,20 +15,30 @@
     </head>
     <body>
 
-       <div id="menu" style="padding:20px;"></div> 
+       <ul id="slide-out" class="side-nav fixed" style="width:200px">
+        <li><div class="userView" align="center">
+        <a href="index.html"><img class="circle" src="images/home.png"></a>
+      </div>
+    </li></br>
+    <li><div class="divider"></div></li>
+      <li><a href="dogs.html"><img src="images/dog.png" style="height:50px"/> </a></li>
+      <li><a href="cats.html"><img src="images/cat.png" style="height:50px"/></a></li>
+      <li><a href="birds.html"><img src="images/bird.png" style="height:50px"/></a></li>
+    </ul>
 
-       <div id="modal1" class="modal">
-    <div class="modal-content">
-      
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
 
 
 
-    <div class="container" style="padding:10px; margin-top:100px;">
+    <div class="container">
+<div style="margin-bottom:50px"><h3 class="center"> Google Challenge #4 </br>Data search and visualization</h3>
+<p> Type in the fields and press either the search button or "enter" on your keyboard to fire the search!</br>
+    The research algorithm supports reasearch on all fields and possible combinations, except for combinations with IDs, which didn't seem very useful to implement.</br>
+    However, the single search by ID works like a charm
+</p>
+</div>
+
+
+
       <div class="row">
     <div id="pic"> </div>
       <div class="col s2">
@@ -61,10 +71,15 @@
       <input id="search_color" list="color_list"placeholder="Color" onkeypress="trigg_ent(event)"> </input>
       <datalist id="color_list"></datalist>
       </div>
+
  <div class="col s6 offset-s5">
  <button onclick="fire()" class="waves-effect waves-light btn"><i class="material-icons center">search</i></button> 
 </div>
+
       <div class="col s12" style="margin-top:50px">
+        <div>
+  <p>Psst... click on the table row to see the animal's image! </p>
+</div>
     	<table id="table" class="responsive-table highlight">
         <thead>
       		<tr>
@@ -84,6 +99,16 @@
 
   </div>
 </div>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+       <div id="modal1" class="modal">
+    <div class="modal-content">
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
 
 
     </body>
@@ -101,6 +126,14 @@
     xhttp.open("GET", "animals.xml", true);
     xhttp.send();
 
+ $( document ).ready(function() {
+    $('.button-collapse').sideNav({
+      menuWidth: 200, // Default is 300
+      edge: 'left', // Choose the horizontal origin
+      draggable: true // Choose whether you can drag to open on touch screens
+    }
+  );
+});
     </script>
   
 

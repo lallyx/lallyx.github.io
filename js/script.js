@@ -1,50 +1,58 @@
+
+//getty images apikey
 var apiKey = 'hj76uu4mz63gee298cjjpyue';
 
+
+//function to call the getty images research.
+//Event is the parameter bound in the function to generate the "onclick" event on each <tr>, when printing the table (function print)
+//It consists of Type + Breed
+//The getty call returns only the first image, as for demo purposed I believe it's enough.
 function getty(event){
 var breed=event.data.param;
 $.ajax(
     {
         type:'GET',
-        url: "https://api.gettyimages.com/v3/search/images/creative?phrase="+breed,
+        url: "https://api.gettyimages.com/v3/search/images/creative?phrase="+breed, //query getty images for Type + Breed
          beforeSend: function (request)
             {
                 request.setRequestHeader("Api-Key", apiKey);
             }})
     .done(function(data){
         console.log("Success with data")
-          $(".modal-content").empty();
-           $(".modal-content").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");
-           $('#modal1').modal('open');
+          $(".modal-content").empty(); //empty the modal window each time a new image is loaded. Forced clear to make sure it's emptied
+          if ( typeof data.images[0] == 'undefined')
+            { alert("Sorry! No image available at the moment"); //if getty doesn't return any images, display an alert
+              return;
+              }
+           $(".modal-content").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");//append the image with the <img> tag to the modal window
+           $('#modal1').modal('open');//open the modal window when ready. It is delayed because of the response time of getty.
     })
     .fail(function(data){
         alert(JSON.stringify(data,2))
     });
 }
 
-
-
-
-$(function(){
-      $("#menu").load("menu.html"); 
-    });
-
+//Trigger research when pressing ENTER
 function trigg_ent(evt){
 if (evt.keyCode === 13) 
   {fire();}
 }
 
+//function to empty the table displayed in the page whenever a new research is done.
 function empty_table()
 {
   var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
   tableRef.innerHTML = "";
 
 }
+//function added just to avoid typing the cell+append code each time.
 function add_cell(value)
 {
   newCell  = newRow.insertCell(-1);
   newText  = document.createTextNode(value);
   newCell.appendChild(newText);
 };
+//first instance of the research "fired" on each request. It checks the connection to the xml file and passes it through the real research function.
  function fire () 
     {
       var xhttp = new XMLHttpRequest();
@@ -58,7 +66,9 @@ function add_cell(value)
     xhttp.open("GET", "animals.xml", true);
     xhttp.send(); 
     };
-
+//research query, split in different sections in order to use the same function to cycle through all the possible combinations of fields.
+//src_type defines the number of input fields which have been filled in. This goes through the switch cases.
+//len defines the length of the cycle to be performed.
 function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, type1, type2, type3, type4, type5)
 {
   var check1, check2, check3, check4, check5;
@@ -132,34 +142,19 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
             }break;
   } 
 };
-
+//middle researchh function. This defines the lenght of the research and the case to be applied in the core reserach function.
+//By filterin the research in three steps I'm able to identify which fields have been filled in and which ones should be used against the research query.
       function search_init(xml)
       {
         empty_table();
         var item, item1, item2, item3, item4, item5;
         var id, name, type, gender, breed, color;
-        if (!document.getElementById("search_type"))
-           {type="HIDDEN"}
-          else{type = document.getElementById("search_type").value;}
-
-        if (!document.getElementById("search_id"))
-           {id="HIDDEN"}
-          else{id = document.getElementById("search_id").value;}
-
-        if (!document.getElementById("search_name"))
-           {name="HIDDEN"}
-          else{name = document.getElementById("search_name").value;}
-
-        if (!document.getElementById("search_gender"))
-           {gender="HIDDEN"}
-          else{gender = document.getElementById("search_gender").value;}
-        
-        if (!document.getElementById("search_breed"))
-           {breed="HIDDEN"}
-          else{breed = document.getElementById("search_breed").value;}
-        if (!document.getElementById("search_color"))
-           {color="HIDDEN"}
-          else{color = document.getElementById("search_color").value;}
+        type = document.getElementById("search_type").value;
+        id = document.getElementById("search_id").value;
+        name = document.getElementById("search_name").value;
+        gender = document.getElementById("search_gender").value;
+        breed = document.getElementById("search_breed").value;
+        color = document.getElementById("search_color").value;
 
         var xmlDoc = xml.responseXML;
         var len = xmlDoc.getElementsByTagName("Animal_ID").length;
@@ -188,7 +183,7 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
           }
         //Search Cases by 4 items
         //search by Name, Type, Gender and Breed
-        if ( name !=="" && type!=="" && gender!=="" && breed !== "")
+          if ( name !=="" && type!=="" && gender!=="" && breed !== "")
           {item1="Animal_Name"; item2="animal_type"; item3="Animal_Gender"; item4="Animal_Breed"; 
           search_query(xmlDoc, 4, item1, item2, item3, item4, "", len, name, type, gender, breed, "");
           return;
@@ -212,8 +207,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
           return;
           }  
 
-        //Double Search Cases
-        //search by Type and Gender
+          //Double Search Cases
+          //search by Type and Gender
         if (name =="" && breed =="" && color =="")
           {item1="animal_type"; item2="Animal_Gender";  
           search_query(xmlDoc, 2, item1, item2, "", "", "", len, type, gender, "", "", "");
@@ -310,7 +305,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
          
       
     }; 
-
+    //function to populate the datalist, used to fill in the autocomplete.
+    //This function has been created because the datalist needs to be populated only once and I wanted to use only one function to print the table.
 
   function populate_datalist(value, listname)
 { 
@@ -322,14 +318,16 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
         for (i=0; i<len; i++)
         {
           
-          if (y.options[i].value == value)
+          if (y.options[i].value == value) //checks and excludes duplicates
           {
             return;
           }
         }
         document.getElementById(listname).appendChild(z);
 }
-
+//function used to define which table to print on every instance/page
+//the type variable is used on the html page to define which page to print.
+//if the type are dogs, cats or birds, the print function gets the parameter for the animal, preventing it to pring the type and populating the datalist.
 function print_table(xml, type) 
 {
     var i=0;
@@ -340,7 +338,6 @@ function print_table(xml, type)
     
     var len = xmlDoc.getElementsByTagName("Animal_ID").length;
 
-    //var id_list = document.getElementById('id_list');
 
     switch (type) {
     case "all":
@@ -371,7 +368,10 @@ function print_table(xml, type)
     }break;
     }
   }
-
+//function to print the table on the screen.
+//pop stands for populate, and checks if there's a need to populate the datalist or not. Ideally I should have included it only once, but there might be cases where I might need to re-populate it.
+//sing stands for singular. If it's a singular type, i don't need to print the type in the table.
+//specific_an gets the type name, in order to pass it through the getty images call.
 function print(xmlDoc, tableRef, i, pop, sing, specific_an){
 
   var value, breed, an_id, an_type;
@@ -418,5 +418,5 @@ function print(xmlDoc, tableRef, i, pop, sing, specific_an){
     
         an_id=xmlDoc.getElementsByTagName("Animal_ID")[i].childNodes[0].nodeValue;;
         breed = an_type + " " + breed;
-        $("#"+an_id).bind('click', { param: breed }, getty);
+        $("#"+an_id).bind('click', { param: breed }, getty);//jquery to bind the click event to each table row and pass an argument to the getty function.
 }
