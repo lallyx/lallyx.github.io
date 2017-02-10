@@ -1,11 +1,31 @@
 # Challenge #4 - Data display and research 
-challenge content
+Create a catalogue (like encyclopedia) of data on adoptable pets (name, description, location,
+
+etc.) where one can browse and search the dataset. You can start with this dataset, modify it, or
+
+use another dataset with similar fields.
+
+1. Example search queries you'll want to be able to handle:
+
+○ all dogs
+
+○ by pet's name
+
+○ female cats with tabby colouring
+
+2. Add search autocomplete
+
+3. Bonus points for making it responsive and work well on small screens (phone, tablets)
+
+and with touch interactions.
+
+4. Extra bonus points if you add animal images to the catalogue.
 
 ## Why XML
 Since it has been specified that github would have been the preferrable mean of deploying and sharing the project, I had to exclude an SQL database, mainly because I wasn't going to have a server with a database initiated on it.
-In other projects I got used to create a relational database with the data I had been given, write an HTML inteface and access the data with PHP+MySQL.
+In other projects I got used to create a relational database , write an HTML inteface and access the data with PHP+SQL.
 
-Give the impossibility to use the above mentioned languages, I decided to take on this challenge and learn how to access a relevant amount of data in a different way.
+Given the impossibility to use the above mentioned languages, I decided to take on this challenge and learn how to access a relevant amount of data in a different way.
 I had no knowledge on XML parsing prior this challenge, so I have studied and learned how the file structure works, the Javascript methods to be used, along with the cons and pros of choosing XML over JSON.
 I've learned what has been used in this project on w3school-->
 
