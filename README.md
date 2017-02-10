@@ -14,13 +14,15 @@ The actual print/loading/search speed across all the data confirms that, for thi
 ## UI - Why Materialize
 I chose materialize.css for the following reasons:
 - I already knew how to implement the barebones of it because I had used it in on a personal project (attached to my application form);
-- It's easy and flexible enough. It allowed me to setup relatively fast a fully responsive page without a lot of tweaking. However, you will notice in the code's comments that I needed to do some adjustments.
+- It's simple and flexible. It allowed me to setup relatively fast a fully responsive page without a lot of tweaking. 
+  However, you will notice in the code's comments that I needed to do some adjustments.
 - It requires very few 3rd parties inclusions, allowing me to keep the project as slim and fast as possible.
-- It has built in material design, which I find simple and straightforward.
+- It has built in material design styles and icons.
 
 ## The menu - Why has it been copy-pasted on all the pages
 I had initially thought of creating a separate menu file and include with a php-->include().
-However, having moved to a "full client-side" development, I've had to try with the Jquery approach, which didn't fulfill my speed expectations, rendering the page with a bit of delay which I found unacceptable. I therefore moved to every single page to make it load straightaway.
+However, having moved to a "full client-side" development, I've had to try with the Jquery approach, which didn't fulfill my speed expectations, rendering the page with a bit of delay which I found unacceptable. 
+I therefore moved to every single page to make it load straightaway.
 
 ## The sections
 The index(home), is the core of the challenge task.
@@ -30,10 +32,65 @@ I've decided to take the ID out of the research scope because in a "real-world" 
 
 The sections marked with animals icon redirect the user to a page which displays the whole dataset of that specific animal.
 I have included this functionality just to show the functionality implemented in the print function. 
-All these pages do not include the research functionality, as it they've been implemented only for showcasing purposes.
+All these pages do not include the research functionality, as they've been created only for showcasing purposes.
 
 ## The images
 Animal images are gathered directly from a call to getty images.
-Before taking on this project I had never workded with image search APIs.
-Over all the APIs present on the internet, I've decided to move on with Getty because I found it to be simplest.
-The algorithm sends a request to getty with the animal type and breed and prints out the first image received.
+Before taking on this project I had never worked with image search APIs.
+Over all the APIs present on the internet, I've decided to move on with Getty because I found it to be simplest, in terms of inclusion and research query.
+Moreover, the API key provided unlimited queries, leaving a huge testing window.
+The algorithm sends a request to getty with the animal type and breed and prints out the first image received. ///TO BE FINISHED
+
+#The functions:
+
+##Images
+###getty(event)
+Event is the parameter bound in the function to generate the "onclick" event on each <tr>, when printing the table (function print)
+It consists of Type + Breed
+
+The function checks also checks if getty has returned an image or not. If it hasn't, it displays an alert.
+
+##Search
+
+###fire()
+First step of the research query, "fired" on each request. 
+It checks the connection to the xml file and passes it through the second step of the research function.
+
+###search_init(xml)
+gets the xml file as the only argument.
+Declares all the variables related to the search fields and passes them through the final research step, depending on the combinations of the filled in fields.
+All the cases have been commented in the scripts.js file.
+
+###search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, type1, type2, type3, type4, type5)
+Single function to handle all the possible combinations of items to be searched against the XML file.
+src_type defines the number of input fields which have been filled in. This goes through the switch cases.
+len defines the length of the cycle to be performed.
+Depending on the arguments passed to it, it filters the XML file and calls the print function accordingly.
+
+##Print
+###print_table(xml, type) 
+Function used to define which table to print on every instance/page
+The type variable is used on the html page to define which page to print.
+if the type are dogs, cats or birds, the print function gets the parameter for the animal, preventing it to pring the type and populating the datalist.
+function print_table(xml, type) 
+
+###print(xmlDoc, tableRef, i, pop, sing, specific_an)
+Function to print the table on the screen.
+Pop stands for populate, and checks if there's a need to populate the datalist or not. Ideally I should have included it only once, but there might be cases where I might need to re-populate it.
+Sing stands for singular. If it's a singular type, i don't need to print the type in the table.
+Specific_an gets the type name, in order to pass it through the getty images call.
+
+##Misc
+###trigg_ent(evt)
+Checks if the user has pressed the enter key.
+If it has been pressed, fires the first step of the research query --> fire()
+
+###populate_datalist(value, listname)
+Function to populate the datalist, used to fill in the autocomplete.
+This function has been created because the datalist needs to be populated only once and I wanted to use only one function to print the table.
+
+###add_cell(value)
+Function added just to avoid typing the cell+append code each time.
+
+###empty_table()
+Function to empty the table displayed in the page whenever a new research is done.
