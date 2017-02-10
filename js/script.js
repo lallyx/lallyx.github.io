@@ -6,9 +6,10 @@ var apiKey = 'hj76uu4mz63gee298cjjpyue';
 //function to call the getty images research.
 //Event is the parameter bound in the function to generate the "onclick" event on each <tr>, when printing the table (function print)
 //It consists of Type + Breed
-//The getty call returns only the first image, as for demo purposed I believe it's enough.
+//The getty call returns a random image, out of the first 10 returned by the call.
 function getty(event){
 var breed=event.data.param;
+var n=Math.floor((Math.random() * 10) + 1);
 $.ajax(
     {
         type:'GET',
@@ -20,11 +21,11 @@ $.ajax(
     .done(function(data){
         console.log("Success with data")
           $(".modal-content").empty(); //empty the modal window each time a new image is loaded. Forced clear to make sure it's emptied
-          if ( typeof data.images[0] == 'undefined')
+          if ( typeof data.images[n] == 'undefined')
             { alert("Sorry! No image available at the moment"); //if getty doesn't return any images, display an alert
               return;
               }
-           $(".modal-content").append("<img src='" + data.images[0].display_sizes[0].uri + "'/>");//append the image with the <img> tag to the modal window
+           $(".modal-content").append("<img src='" + data.images[n].display_sizes[0].uri + "'/>");//append the image with the <img> tag to the modal window
            $('#modal1').modal('open');//open the modal window when ready. It is delayed because of the response time of getty.
     })
     .fail(function(data){

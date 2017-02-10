@@ -2,9 +2,9 @@
 Create a catalogue (like encyclopedia) of data on adoptable pets (name, description, location,etc.) where one can browse and search the dataset. You can start with this dataset, modify it, oruse another dataset with similar fields.
 
 1. Example search queries you'll want to be able to handle:
-	- all dogs
- 	- by pet's name
- 	- female cats with tabby colouring
+- all dogs
+- by pet's name
+- female cats with tabby colouring
 
 2. Add search autocomplete
 
@@ -23,34 +23,34 @@ I've learned what has been used in this project on w3school-->
 The actual print/loading/search speed across all the data confirms that, for this challenge, an XML file is more than capable of handling an acceptable timeline.
 
 ## UI - Why Materialize
-I chose materialize.css for the following reasons:
+I've chosen materialize.css for the following reasons:
 - I already knew how to implement the barebones of it because I had used it in on a personal project (attached to my application form);
-- It's simple and flexible. It allowed me to setup relatively fast a fully responsive page without a lot of tweaking. 
-  However, you will notice in the code's comments that I needed to do some adjustments.
-- It requires very few 3rd parties inclusions, allowing me to keep the project as slim and fast as possible.
-- It has built in material design styles and icons.
+- It's simple and flexible. It allowed me to setup relatively fast a fully responsive page without a lot of tweaking.
+  However, you will notice in the code's comments that I needed to do some adjustments;
+- It requires very few 3rd parties inclusions, allowing me to keep the project as slim and fast as possible;
+- It has built in material design styles and icons;
 
 ## The menu - Why has it been copy-pasted on all the pages
-I had initially thought of creating a separate menu file and include with a php-->include().
+I had initially thought of creating a separate menu file and include it everywhere with a php-->include().
 However, having moved to a "full client-side" development, I've had to try with the Jquery approach, which didn't fulfill my speed expectations, rendering the page with a bit of delay which I found unacceptable. 
-I therefore moved to every single page to make it load straightaway.
+I therefore moved it to every single page to make it load straightaway.
 
 ## The sections
-The index(home), is the core of the challenge task.
-It prints the whole datalist and gives the user the possibility to search for a specific animal in all the possible combinations of the displayed fields.
+The index is the core of the challenge task.
+It prints the whole dataset and gives the user the possibility to search for a specific animal in all the possible combinations of the displayed fields.
 The only exception is the ID, which works on its own.
-I've decided to take the ID out of the research scope because in a "real-world" case I belive an admin would look for an ID straight away.
+I've decided to take the ID out of the research scope because in a "real-world" case I believe an admin would look for an ID straight away, without filtering for other fields, since the ID would be unique.
 
-The sections marked with animals icon redirect the user to a page which displays the whole dataset of that specific animal.
-I have included this functionality just to show the functionality implemented in the print function. 
+The sections marked with animal icons redirect the user to a page which displays the whole dataset of that specific animal.
+I have included this functionality just to show the different usage of the "print_table" function. 
 All these pages do not include the research functionality, as they've been created only for showcasing purposes.
 
 ## The images
 Animal images are gathered directly from a call to getty images.
 Before taking on this project I had never worked with image search APIs.
-Over all the APIs present on the internet, I've decided to move on with Getty because I found it to be simplest, in terms of inclusion and research query.
+Over all the APIs on the internet, I've decided to move on with Getty because I found it to be simplest, in terms of inclusion and research query.
 Moreover, the API key provided unlimited queries, leaving a huge testing window.
-The algorithm sends a request to getty with the animal type and breed and prints out the first image received. ///TO BE FINISHED
+The algorithm sends a request to getty with the animal type and breed and prints out a random image within the first 10 returned by the call.
 
 #The functions:
 
