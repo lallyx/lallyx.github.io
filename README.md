@@ -98,10 +98,10 @@ All the cases have been commented in the scripts.js file.
 
 ###search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, type1, type2, type3, type4, type5)
 Single function to handle all the possible combinations of items to be searched against the XML file.
-The item variables define the name of the fields to be looked at in the xmlDoc object array.
-Type defines the item to be checked in the field. It comes from the input fields.
-src_type defines the number of input fields which have been filled in. This goes through the switch cases.
-len defines the length of the cycle to be performed.
+- The item variables define the name of the fields to be looked at in the xmlDoc object array.
+- Type defines the item to be checked in the field. It comes from the input fields.
+- src_type defines the number of input fields which have been filled in. This goes through the switch cases.
+- len defines the length of the cycle to be performed.
 Depending on the arguments passed to it, it filters the XML file and calls the print function accordingly.
 
 ##Print
@@ -113,9 +113,9 @@ if the type are dogs, cats or birds, the print function gets the parameter for t
 
 ###print(xmlDoc, tableRef, i, pop, sing, specific_an)
 Function to print the table on the screen.
-Pop stands for populate, and checks if there's a need to populate the datalist or not. Ideally I should have included it only once, but there might be cases where I might need to re-populate it.
-Sing stands for singular. If it's a singular type, i don't need to print the type in the table.
-Specific_an gets the type name, in order to pass it through the getty images call.
+- Pop stands for populate, and checks if there's a need to populate the datalist or not. Ideally I should have included it only once, but there might be cases where I might need to re-populate it.
+- Sing stands for singular. If it's a singular type, i don't need to print the type in the table.
+- Specific_an gets the type name, in order to pass it through the getty images call.
 
 ##Misc
 ###trigg_ent(evt)
