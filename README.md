@@ -7,7 +7,9 @@ Create a catalogue (like encyclopedia) of data on adoptable pets (name, descript
 - female cats with tabby colouring
 
 2) Add search autocomplete
+
 3) Bonus points for making it responsive and work well on small screens (phone, tablets)and with touch interactions.
+
 4) Extra bonus points if you add animal images to the catalogue.
 
 ## Why XML
@@ -64,15 +66,15 @@ The populate_datalist() function scans the table and generates all the options i
 
 #Lessons learned
 - In depth usage of linear Javascript
--- Writing a scalable search algorithm from scratch
--- Splitting the code properly in functions.
+  - Writing a scalable search algorithm from scratch
+  - Splitting the code properly in functions.
 - XML
--- Data structure (tree, nodes)
--- File parsing
--- Accessing and manipulating XML data with Javascript
+  - Data structure (tree, nodes)
+  - File parsing
+  - Accessing and manipulating XML data with Javascript
 - 3rd party images APIs
--- Api calls and usage
--- JSON response parsing through Jquery.
+  - Api calls and usage
+  - JSON response parsing through Jquery.
 
 #The functions:
 
