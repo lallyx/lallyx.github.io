@@ -10,29 +10,26 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
     </head>
     <body>
 <!-- Slide out menu - fixed on big screens and hidden on small ones -->
-
-       <ul id="slide-out" class="side-nav fixed center" style="width:200px">
-        <li><div class="userView">
-        <a href="index.html"><img src="images/home.png"></a>
-      </div>
-    </li></br>
-    <li><div class="divider" style="margin-bottom:30px"></div></li>
-      <li><a href="dogs.html"><img src="images/dog.png" style="height:50px"/> </a></li>
-      <li><a href="cats.html"><img src="images/cat.png" style="height:50px"/></a></li>
-      <li><a href="birds.html"><img src="images/bird.png" style="height:50px"/></a></li>
-    </ul>
+      <ul id="slide-out" class="side-nav fixed center" style="width:200px">
+        <li>
+          <div class="userView">
+            <a href="index.html"><img src="images/home.png"></a>
+          </div>
+        </li></br>
+        <li><div class="divider" style="margin-bottom:30px"></div></li>
+        <li><a href="dogs.html"><img src="images/dog.png" style="height:50px"/> </a></li>
+        <li><a href="cats.html"><img src="images/cat.png" style="height:50px"/></a></li>
+        <li><a href="birds.html"><img src="images/bird.png" style="height:50px"/></a></li>
+      </ul>
 
 <a href="#" data-activates="slide-out" class="button-collapse" style="padding:20px"><i class="material-icons small">menu</i></a>
 
 <!-- modal window to display animal images-->
-       <div id="modal1" class="modal">
-    <div class="modal-content">
-      
-    </div>
+  <div id="modal1" class="modal">
+    <div class="modal-content"></div>
     <div class="modal-footer">
       <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
@@ -40,81 +37,67 @@
 
 
     <div class="container">
-<div style="margin-bottom:50px"><h3 class="center"> Google Challenge #4 </br>Data search and visualization</h3>
-<p> Type in the fields and press either the search button or "enter" on your keyboard to fire the search!</br>
-    The research algorithm supports reasearch on all fields and possible combinations, except for combinations with IDs, which didn't seem very useful to implement.</br>
-    However, the single search by ID works like a charm.</br>
-    Please be aware that the research is case sensitive.</br>
-    The full documentation can be found on the github readme file <a href="https://github.com/lallyx/lallyx.github.io/blob/master/README.md">here</a>
-</p>
-</div>
-
-
-
+      <div style="margin-bottom:50px"><h3 class="center"> Google Challenge #4 </br>Data search and visualization</h3>
+        <p> Type in the fields and press either the search button or "enter" on your keyboard to fire the search!</br>
+            The research algorithm supports reasearch on all fields and possible combinations, except for combinations with IDs, which didn't seem very useful to implement.</br>
+            However, the single search by ID works like a charm.</br>
+            Please be aware that the research is case sensitive.</br>
+            The full documentation can be found on the github readme file <a href="https://github.com/lallyx/lallyx.github.io/blob/master/README.md">here</a>
+        </p>
+      </div>
       <div class="row">
-    <div id="pic"> </div>
-      <div class="col s12 m6 l2">
-      <input id="search_id" list="id_list" placeholder="ID" onkeypress="trigg_ent(event)">
-      </input>
-      <datalist id="id_list"></datalist>
+        <div class="col s12 m6 l2"><!-- different range of columns. Used to make the website adapt to every screen resolution -->
+        <input id="search_id" list="id_list" placeholder="ID" onkeypress="trigg_ent(event)"><!-- Fire the research when the user presses enter -->
+        </input>
+        <datalist id="id_list"></datalist>
+        </div>
+        <div class="col s12 m6 l2">
+        <input id="search_name" list="name_list" placeholder="Name" onkeypress="trigg_ent(event)"> </input>
+        <datalist id="name_list"></datalist>
+        </div>
+        <div class="col s12 m6 l2">
+        <input id="search_type" list="type_list" placeholder="Type" onkeypress="trigg_ent(event)"> </input>
+        <datalist id="type_list"></datalist>
+        </div>
+        <div class="col s12 m6 l2">
+        <input id="search_gender" list="gender_list" placeholder="Gender" onkeypress="trigg_ent(event)"></input>
+        <datalist id="gender_list"></datalist>
+        </div>
+        <div class="col s12 m6 l2">
+        <input id="search_breed" list="breed_list" placeholder="Breed" onkeypress="trigg_ent(event)"> </input>
+        <datalist id="breed_list"></datalist>
+        </div>
+        <div class="col s12 m6 l2">
+        <input id="search_color" list="color_list"placeholder="Color" onkeypress="trigg_ent(event)"> </input>
+        <datalist id="color_list"></datalist>
+        </div>
+        <div class="col s6 offset-s5">
+          <button onclick="fire()" class="waves-effect waves-light btn"><i class="material-icons center">search</i></button> 
+        </div>
+
+        <div class="col s12" style="margin-top:50px">
+          <p>Psst... click on the table row to see the animal's image! </p>
+          <table id="table" class="responsive-table highlight">
+          <thead>
+      		  <tr>
+              <th> ID </th>
+              <th> Name </th>
+              <th> Type </th>
+              <th> Gender </th>
+              <th> Breed </th>
+              <th> Color </th>
+              <th> Address </th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+		      </table>
+        </div>
       </div>
-
-      <div class="col s12 m6 l2">
-      <input id="search_name" list="name_list" placeholder="Name" onkeypress="trigg_ent(event)"> </input>
-      <datalist id="name_list"></datalist>
-      </div>
-
-      <div class="col s12 m6 l2">
-      <input id="search_type" list="type_list" placeholder="Type" onkeypress="trigg_ent(event)"> </input>
-      <datalist id="type_list"></datalist>
-      </div>
-
-      <div class="col s12 m6 l2">
-      <input id="search_gender" list="gender_list" placeholder="Gender" onkeypress="trigg_ent(event)"></input>
-      <datalist id="gender_list"></datalist>
-      </div>
-
-      <div class="col s12 m6 l2">
-      <input id="search_breed" list="breed_list" placeholder="Breed" onkeypress="trigg_ent(event)"> </input>
-      <datalist id="breed_list"></datalist>
-      </div>
-
-      <div class="col s12 m6 l2">
-      <input id="search_color" list="color_list"placeholder="Color" onkeypress="trigg_ent(event)"> </input>
-      <datalist id="color_list"></datalist>
-      </div>
-
- <div class="col s6 offset-s5">
- <button onclick="fire()" class="waves-effect waves-light btn"><i class="material-icons center">search</i></button> 
-</div>
-
-      <div class="col s12" style="margin-top:50px">
-        <div>
-  <p>Psst... click on the table row to see the animal's image! </p>
-</div>
-    	<table id="table" class="responsive-table highlight">
-        <thead>
-      		<tr>
-      			<th> ID </th>
-      			<th> Name </th>
-      			<th> Type </th>
-      			<th> Gender </th>
-      			<th> Breed </th>
-      			<th> Color </th>
-      			<th> Address </th>
-      		</tr>
-        </thead>
-        <tbody>
-        </tbody>
-		</table>
-  </div>
-
-  </div>
 </div>
 
     
 
-    </body>
+
 <script type="text/javascript">
 //Call to initiate the modal window
  $('#modal1').modal();
@@ -141,6 +124,6 @@
   );
 });
     </script>
-  
+      </body>
 
 </html>

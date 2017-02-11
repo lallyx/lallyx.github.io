@@ -1,20 +1,18 @@
 # Challenge #4 - Data display and research 
 Create a catalogue (like encyclopedia) of data on adoptable pets (name, description, location,etc.) where one can browse and search the dataset. You can start with this dataset, modify it, oruse another dataset with similar fields.
 
-1. Example search queries you'll want to be able to handle:
+1) Example search queries you'll want to be able to handle:
 - all dogs
 - by pet's name
 - female cats with tabby colouring
 
-2. Add search autocomplete
-
-3. Bonus points for making it responsive and work well on small screens (phone, tablets)and with touch interactions.
-
-4. Extra bonus points if you add animal images to the catalogue.
+2) Add search autocomplete
+3) Bonus points for making it responsive and work well on small screens (phone, tablets)and with touch interactions.
+4) Extra bonus points if you add animal images to the catalogue.
 
 ## Why XML
 Since it has been specified that github would have been the preferrable mean of deploying and sharing the project, I had to exclude an SQL database, mainly because I wasn't going to have a server with a database initiated on it.
-In other projects I got used to create a relational database , write an HTML inteface and access the data with PHP+SQL.
+In other projects I got used to create a relational database, write an HTML inteface and access the data with PHP+SQL.
 
 Given the impossibility to use the above mentioned languages, I decided to take on this challenge and learn how to access a relevant amount of data in a different way.
 I had no knowledge on XML parsing prior this challenge, so I have studied and learned how the file structure works, the Javascript methods to be used, along with the cons and pros of choosing XML over JSON.
@@ -64,6 +62,17 @@ As per the address, I see it as an output, rather than an input, so I've just le
 The autocomplete functionality is based on the HTML 5 datalist field.
 The populate_datalist() function scans the table and generates all the options inside every single input field's datalist.
 
+#Lessons learned
+- In depth usage of linear Javascript
+-- Writing a scalable search algorithm from scratch
+-- Splitting the code properly in functions.
+- XML
+-- Data structure (tree, nodes)
+-- File parsing
+-- Accessing and manipulating XML data with Javascript
+- 3rd party images APIs
+-- Api calls and usage
+-- JSON response parsing through Jquery.
 
 #The functions:
 
@@ -120,3 +129,4 @@ Function added just to avoid typing the cell+append code each time.
 
 ###empty_table()
 Function to empty the table displayed in the page whenever a new research is done.
+
