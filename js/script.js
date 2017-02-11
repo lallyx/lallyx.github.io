@@ -68,12 +68,15 @@ function add_cell(value)
     xhttp.send(); 
     };
 //research query, split in different sections in order to use the same function to cycle through all the possible combinations of fields.
+//The item variables define the name of the fields to be looked at in the xmlDoc object array.
+//Type defines the item to be checked in the field. It comes from the input fields.
 //src_type defines the number of input fields which have been filled in. This goes through the switch cases.
 //len defines the length of the cycle to be performed.
 function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, type1, type2, type3, type4, type5)
 {
   var check1, check2, check3, check4, check5;
   var n1, n2, n3, n4, n5;
+  var n_print=0;
   var tableRef = document.getElementById('table').getElementsByTagName('tbody')[0];
   switch (src_type){
     case 1:
@@ -82,9 +85,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
               check1 = xmlDoc.getElementsByTagName(item1)[i].childNodes[0].nodeValue;;
               n1=check1.includes(type1);
               if (n1==true)
-                {print(xmlDoc, tableRef, i, 0, 0);}
-          }
-          break;
+                {n_print+=n_print+1; print(xmlDoc, tableRef, i, 0, 0); }
+          }if(n_print==0){alert("Your research didn't return any result");} break;
     case 2:
           for (i=0; i<len; i++)
             {
@@ -93,10 +95,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
               n1=check1.includes(type1);
               n2=check2.includes(type2);
               if (n1==true && n2 ==true)
-                {
-                print(xmlDoc, tableRef, i, 0, 0);
-              }
-            }break;
+                {n_print+=n_print+1; print(xmlDoc, tableRef, i, 0, 0);}
+            }if(n_print==0){alert("Your research didn't return any result");}break;
     case 3:
           for (i=0; i<len; i++)
             {
@@ -107,8 +107,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
               n2=check2.includes(type2);
               n3=check3.includes(type3);
               if (n1==true && n2==true && n3== true)
-                {print(xmlDoc, tableRef, i, 0, 0);}
-            }break;
+                {n_print+=n_print+1; print(xmlDoc, tableRef, i, 0, 0);}
+            }if(n_print==0){alert("Your research didn't return any result");}break;
     case 4:
           for (i=0; i<len; i++)
             {
@@ -121,8 +121,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
               n3=check3.includes(type3);
               n4=check4.includes(type4);
               if (n1==true && n2==true && n3==true && n4==true)
-                {print(xmlDoc, tableRef, i, 0, 0);}
-            }break;
+                {n_print+=n_print+1; print(xmlDoc, tableRef, i, 0, 0);}
+            }if(n_print==0){alert("Your research didn't return any result");}break;
     case 5:
           for (i=0; i<len; i++)
             {
@@ -137,10 +137,8 @@ function search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, 
               n4=check4.includes(type4);
               n5=check5.includes(type5);
               if (n1==true && n2==true && n3==true && n4==true && n5==true)
-                {
-                print(xmlDoc, tableRef, i, 0, 0);
-                }
-            }break;
+                {n_print+=n_print+1; print(xmlDoc, tableRef, i, 0, 0);}
+            }if(n_print==0){alert("Your research didn't return any result");}break;
   } 
 };
 //middle researchh function. This defines the lenght of the research and the case to be applied in the core reserach function.

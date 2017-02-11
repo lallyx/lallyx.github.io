@@ -18,7 +18,8 @@ In other projects I got used to create a relational database , write an HTML int
 
 Given the impossibility to use the above mentioned languages, I decided to take on this challenge and learn how to access a relevant amount of data in a different way.
 I had no knowledge on XML parsing prior this challenge, so I have studied and learned how the file structure works, the Javascript methods to be used, along with the cons and pros of choosing XML over JSON.
-I've learned what has been used in this project on w3school-->
+I've chosen it because I found it challenging and useful to dive deeper with my JS knowledge as well.
+I've learned what has been used in this project on w3school <a href="http://www.w3schools.com/xml/">here</a>
 
 The actual print/loading/search speed across all the data confirms that, for this challenge, an XML file is more than capable of handling an acceptable timeline.
 
@@ -52,6 +53,18 @@ Over all the APIs on the internet, I've decided to move on with Getty because I 
 Moreover, the API key provided unlimited queries, leaving a huge testing window.
 The algorithm sends a request to getty with the animal type and breed and prints out a random image within the first 10 returned by the call.
 
+## The research algorithm
+The research algorithm is based on the javascript "includes()" native function. It's case sensitive and checks for characters into the words, rather than single words.
+I thought that for this particular task it could have worked out better than a string search.
+All the possible combinations between Name, Gender, Type, Breed and Colour have been taken into account when developing the algorithm. They're all commented in the script.js file.
+I've excluded the ID from the multiple research because I believe that in a "real-world" case the ID field would be used by an Admin as a unique field, hence all the other fields wouldn't matter.
+As per the address, I see it as an output, rather than an input, so I've just left it out from the research.
+
+## Autocomplete
+The autocomplete functionality is based on the HTML 5 datalist field.
+The populate_datalist() function scans the table and generates all the options inside every single input field's datalist.
+
+
 #The functions:
 
 ##Images
@@ -74,6 +87,8 @@ All the cases have been commented in the scripts.js file.
 
 ###search_query(xmlDoc, src_type, item1, item2, item3, item4, item5, len, type1, type2, type3, type4, type5)
 Single function to handle all the possible combinations of items to be searched against the XML file.
+The item variables define the name of the fields to be looked at in the xmlDoc object array.
+Type defines the item to be checked in the field. It comes from the input fields.
 src_type defines the number of input fields which have been filled in. This goes through the switch cases.
 len defines the length of the cycle to be performed.
 Depending on the arguments passed to it, it filters the XML file and calls the print function accordingly.
@@ -83,7 +98,7 @@ Depending on the arguments passed to it, it filters the XML file and calls the p
 Function used to define which table to print on every instance/page
 The type variable is used on the html page to define which page to print.
 if the type are dogs, cats or birds, the print function gets the parameter for the animal, preventing it to pring the type and populating the datalist.
-function print_table(xml, type) 
+
 
 ###print(xmlDoc, tableRef, i, pop, sing, specific_an)
 Function to print the table on the screen.
