@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https:lallyx.github.io"
+base_url = "https://lallyx.github.io"
 theme = "duckquill"
 title = "Lallyx's game dev adventures"
 description = "The blogging diary of a thirty-something dad who wants become an indie game dev"
