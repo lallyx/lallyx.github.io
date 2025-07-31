@@ -1,3 +1,6 @@
-/themes/*/public
-/themes/*/content
-/themes/*/i18n
+themes/*/public
+themes/*/content
+themes/*/i18n
+themes/*/config.toml
+public/
+.cache/
