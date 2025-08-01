@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://lallyx.github.io/</loc>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/devlog/</loc>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/devlog/2025-08-01/</loc>
+        <lastmod>2025-08-01</lastmod>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/devlog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/devlog/starting-point/</loc>
+        <lastmod>2025-07-30</lastmod>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/tags/</loc>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/tags/devlog/</loc>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/tags/summary/</loc>
+    </url>
+    <url>
+        <loc>https://lallyx.github.io/the-game/</loc>
+    </url>
+</urlset>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Lallyx&#x27;s game dev adventures - Summary</title>
+    <subtitle>The blogging diary of a thirty-something dad who wants become an indie game dev</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://lallyx.github.io/tags/summary/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://lallyx.github.io/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-07-30T00:00:00+00:00</updated>
+    <id>https://lallyx.github.io/tags/summary/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Progress before the logs</title>
+        <published>2025-07-30T00:00:00+00:00</published>
+        <updated>2025-07-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            Lallyx
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://lallyx.github.io/devlog/starting-point/"/>
+        <id>https://lallyx.github.io/devlog/starting-point/</id>
+        
+        <content type="html" xml:base="https://lallyx.github.io/devlog/starting-point/">&lt;h1 id=&quot;tooling&quot;&gt;Tooling&lt;&#x2F;h1&gt;
+&lt;p&gt;Let&#x27;s start from the tooling and resources chosen for the project.&lt;&#x2F;p&gt;
+&lt;p&gt;The following is intended to give a sense of what I&#x27;ve selected and used so far.
+Future entries will detail additional tools and discoveries.&lt;&#x2F;p&gt;
+&lt;p&gt;Maybe at some point I can compile a comprehensive list, but for the time being this is pretty much everything I&#x27;m using.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;game-engine&quot;&gt;Game engine&lt;&#x2F;h2&gt;
+&lt;p&gt;Godot4 - open source, touted to be easy and configurable and perfect for 2D games.&lt;&#x2F;p&gt;
+&lt;p&gt;No unity bloat, no hidden fees.&lt;&#x2F;p&gt;
+&lt;p&gt;I dabbled a bit with Pico8 as well, but I want to end up having something more polished and commercially viable by the end of this, so it seemed the next best step up without going down a bigger rabbit hole.&lt;&#x2F;p&gt;
+&lt;p&gt;I will get back to Pico8 at some point as I really enjoyed working with it and the retro feel that comes with it.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ai-assistant-just-for-the-code&quot;&gt;AI Assistant (just for the code)&lt;&#x2F;h2&gt;
+&lt;p&gt;our trusted advisor will be chatGPT, with a splash of Claude if we can&#x27;t come to an agreement.&lt;&#x2F;p&gt;
+&lt;p&gt;I will use these boys mostly for prototyping and code validation, so that I know I&#x27;m on the right path and to get inspired on how to build functionalities that I don&#x27;t have the knowledge to understand yet.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;graphics&quot;&gt;Graphics&lt;&#x2F;h2&gt;
+&lt;p&gt;I picked up a few free packages from itch.io. I really wanted to do it all myself to begin with, but that would have prevented any real progress for too long.&lt;&#x2F;p&gt;
+&lt;p&gt;I plan to upgrade the resources taken and modify them as a I go, to give them my personal touch and to learn from how they were originally created. Also, most free resources don&#x27;t come with all angles and perspectives, so I&#x27;ve already done quite a few modifications.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;pixel-art-making&quot;&gt;Pixel-art making&lt;&#x2F;h2&gt;
+&lt;p&gt;I bit the bullet and bought Aseprite.&lt;&#x2F;p&gt;
+&lt;p&gt;I wanted to be cheap (not that it&#x27;s that expensive anyway), but I figured that if I want to do this properly I should invest a bit in it.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve used to edit quite a few sprites already and it&#x27;s straightforward enough.&lt;&#x2F;p&gt;
+&lt;p&gt;I haven&#x27;t used any advanced features beyond layers to check animation timelines, but I&#x27;m planning to explore some pluging to see where those can take my lack of knowledge.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tutorials&quot;&gt;Tutorials&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;m following &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=QPeycNt29tY&amp;amp;list=PLfcCiyd_V9GH8M9xd_QKlyU8jryGcy3Xa&amp;amp;ab_channel=MichaelGames&quot;&gt;this channel&lt;&#x2F;a&gt; which I find extremely informative, direct to the point and well laid out.&lt;&#x2F;p&gt;
+&lt;p&gt;The programming patterns used are very viable for production-ready code (at least when compared to my web deb experience) and the methods used are easily transferable to any game mechanic I want to implement.&lt;&#x2F;p&gt;
+&lt;p&gt;So far - I just got to the inventory building - I can see how his approach can be transfered to any other game.
+Props to you, Michael!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;yeah-but-what-have-you-actually-built-so-far&quot;&gt;Yeah, but what have you actually built so far?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;player&quot;&gt;Player&lt;&#x2F;h2&gt;
+&lt;p&gt;My first hero character - a dragon, lizard, crocodile friend.
+He can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;move&lt;&#x2F;li&gt;
+&lt;li&gt;aim in the direction he&#x27;s facing (and look at the mouse, I have the function ready)&lt;&#x2F;li&gt;
+&lt;li&gt;perform a &#x27;shouting&#x27; attack in front of him&lt;&#x2F;li&gt;
+&lt;li&gt;deal damage&lt;&#x2F;li&gt;
+&lt;li&gt;take damage&lt;&#x2F;li&gt;
+&lt;li&gt;animate in all faced directions&lt;&#x2F;li&gt;
+&lt;li&gt;idle like a boss&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;All powered by an extendable state machine.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;drero-front.gif&quot; alt=&quot;Front animation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Front animation, with front view created from 0&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;drero-side.gif&quot; alt=&quot;Side animation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Taken from free resources and tweaked&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;attack-animation.gif&quot; alt=&quot;Attack animation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Attack &#x27;shout&#x27; animation, on all sides&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;enemies&quot;&gt;Enemies&lt;&#x2F;h2&gt;
+&lt;p&gt;My first enemy character - a derpy snail
+He can:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Move randomly, with its own state machine&lt;&#x2F;li&gt;
+&lt;li&gt;Hurt when collided with&lt;&#x2F;li&gt;
+&lt;li&gt;Animate in all directions&lt;&#x2F;li&gt;
+&lt;li&gt;Look at you from behind&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;roaming-snails.gif&quot; alt=&quot;Snails roaming around&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Roam, my fiends&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;scene-transitions-and-a-map-to-explore&quot;&gt;Scene transitions and a map to explore&lt;&#x2F;h2&gt;
+&lt;p&gt;A few level scenes staged with a free tileset I plan to adopt throughout most of the game.&lt;&#x2F;p&gt;
+&lt;p&gt;it&#x27;s quite comprehensive and includes a lot of fitting assets that would be easy to further tweak.
+Bonus points because I &lt;strong&gt;love the palette&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve also implemented the scene transition logic, which can pretty much be reused throughout the whole game moving forward.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;exploration.gif&quot; alt=&quot;Show me the way&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Show me the way, my friend&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;load-save&quot;&gt;Load &#x2F; Save&lt;&#x2F;h2&gt;
+&lt;p&gt;Very basic, json file with scene location and health amount.&lt;&#x2F;p&gt;
+&lt;p&gt;Can be easily expanded and doesn&#x27;t require much maintenance.&lt;&#x2F;p&gt;
+&lt;p&gt;Not even comparable to a full backend implementation or needing a DB to query.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;saving.gif&quot; alt=&quot;Load &#x2F; Save&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Where was I?&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;h2 id=&quot;overworld-concept&quot;&gt;Overworld concept&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;m really pleased with this one, as it was &quot;vibe coded&quot; with chatGPT and the results are really solid.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve got a reusable logic that only requires to manually position the locations, select which directions are allowed and draw the path to follow.&lt;&#x2F;p&gt;
+&lt;p&gt;Everything else is handled automatically, the animations swap based on the turn angle and it&#x27;s basically endlessly extendable.&lt;&#x2F;p&gt;
+&lt;p&gt;Once I know how to plug it and what do with it I&#x27;ll add events to unlock&#x2F;show new locations and then different markers for each of them.&lt;&#x2F;p&gt;
+&lt;p&gt;Really, really happy about this one.&lt;&#x2F;p&gt;
+&lt;figure&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;devlog-resources&#x2F;recordings&#x2F;overworld.gif&quot; alt=&quot;Overworld&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;figcaption&gt;Where was I?&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+&lt;p&gt;Yeah, I know it&#x27;s a different tileset.&lt;&#x2F;p&gt;
+&lt;p&gt;I wanted to quickly prototype something that would still look good, so I bought it for like 2$ or something and went with it.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

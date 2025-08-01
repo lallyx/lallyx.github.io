@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en" >
+<head>
+	<!-- 2025-08-01 Fri 21:20 -->
+	<meta charset="UTF-8" />
+	<meta name="description" content="The blogging diary of a thirty-something dad who wants become an indie game dev" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#ef983b" />
+	<title>Progress before the logs - Lallyx's game dev adventures</title>
+	<link rel="canonical" href="https://lallyx.github.io/devlog/starting-point/" /><link rel="icon" type="image/png" href="https://lallyx.github.io/favicon.png" />
+
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://lallyx.github.io/apple-touch-icon.png" />
+<style type="text/css">
+	:root {--accent-color: #ef983b;}</style>
+
+			<link type="text/css" rel="stylesheet" href="https://lallyx.github.io/style.css" />
+			<link type="text/css" rel="stylesheet" href="https://lallyx.github.io/icons.css" />
+			<script type="text/javascript" defer  src="https://lallyx.github.io/closable.js"></script>
+			<script type="text/javascript" defer data-goatcounter="https://lallyx.goatcounter.com/count" src="https://lallyx.github.io/count.js"></script>
+			<script type="text/javascript" defer  src="https://lallyx.github.io/fuse.js"></script>
+			<script type="text/javascript" defer  src="https://lallyx.github.io/search-fuse.js"></script>
+			<script type="text/javascript" defer  src="https://lallyx.github.io/theme-switcher.js"></script>
+
+	<meta property="og:site_name" content="Lallyx&#x27;s game dev adventures" />
+	<meta property="og:title" content="Progress before the logs - Lallyx's game dev adventures" />
+	<meta property="og:url" content="https://lallyx.github.io/devlog/starting-point/" />
+	<meta property="og:description" content="Everything accomplished, discovered, tried and failed so far, before publishing this devlog." /><meta property="og:image" content="https://lallyx.github.io/card.png" /><meta property="og:locale" content="en_US" />
+</head>
+
+<body>
+
+		
+<header id="site-nav">
+	<nav>
+		<a href="#main-content" tabindex="0">
+			Skip to Main Content
+		</a>
+		<ul>
+			<li id="home">
+				<a href="https://lallyx.github.io">
+					<i class="icon"></i>Lallyx&#x27;s game dev adventures</a>
+			</li>
+			<li class="divider"></li>
+					<li>
+						<a href="https://lallyx.github.io/the-game">The game</a>
+					</li>
+					<li>
+						<a href="https://lallyx.github.io/devlog">Devlog</a>
+					</li>
+				<li id="search">
+					<button id="search-toggle" class="circle" title="Search">
+						<i class="icon"></i>
+					</button>
+				</li>
+				<li id="theme-switcher">
+					<details class="closable">
+						<summary class="circle" title="Theme">
+							<i class="icon"></i>
+						</summary>
+						<ul>
+							<li>
+								<button class="circle" id="theme-light" title="Switch to Light Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-dark" title="Switch to Dark Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-system" title="Use System Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+						</ul>
+					</details>
+				</li>
+		</ul>
+	</nav>
+		<div id="search-container">
+			<label for="search-bar" class="visually-hidden">Search</label>
+			<input id="search-bar" placeholder="Search for…" autocomplete="off" type="search" disabled>
+			<div id="search-results-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+</header>
+<main id="main-content">
+		<article><div id="heading"><p>
+				<small>
+					<time datetime=" 2025-07-30T00:00:00+00:00">Published on
+						July 30, 2025</time></small>
+			</p><h1>Progress before the logs</h1><p>
+				<small><span>By Lallyx</span></small>
+			</p>
+				<ul class="tags">
+					<a class="tag" href="https:&#x2F;&#x2F;lallyx.github.io&#x2F;tags">tags:</a><li><a class="tag" href="https://lallyx.github.io/tags/summary/">Summary</a></li>
+				</ul>
+				<br />
+	</div>
+
+	<div id="buttons-container"><details id="toc" class="closable">
+				<summary title="Table of Contents"><i class="icon"></i></summary>
+				<div>
+					<strong class="title">Table of Contents</strong>
+					<div>
+						<ol><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#tooling">Tooling</a><ol><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#game-engine">Game engine</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#ai-assistant-just-for-the-code">AI Assistant (just for the code)</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#graphics">Graphics</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#pixel-art-making">Pixel-art making</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#tutorials">Tutorials</a>
+												</li></ol></li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#yeah-but-what-have-you-actually-built-so-far">Yeah, but what have you actually built so far?</a><ol><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#player">Player</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#enemies">Enemies</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#scene-transitions-and-a-map-to-explore">Scene transitions and a map to explore</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#load-save">Load &#x2F; Save</a>
+												</li><li>
+													<a href="https://lallyx.github.io/devlog/starting-point/#overworld-concept">Overworld concept</a>
+												</li></ol></li></ol>
+					</div>
+				</div>
+			</details><a id="go-to-top" href="#top" title="Go to Top"><i class="icon"></i></a></div><h2>Table of Contents</h2>
+		<ol><li>
+					<a href="https://lallyx.github.io/devlog/starting-point/#tooling">Tooling</a><ol><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#game-engine">Game engine</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#ai-assistant-just-for-the-code">AI Assistant (just for the code)</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#graphics">Graphics</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#pixel-art-making">Pixel-art making</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#tutorials">Tutorials</a>
+								</li></ol></li><li>
+					<a href="https://lallyx.github.io/devlog/starting-point/#yeah-but-what-have-you-actually-built-so-far">Yeah, but what have you actually built so far?</a><ol><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#player">Player</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#enemies">Enemies</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#scene-transitions-and-a-map-to-explore">Scene transitions and a map to explore</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#load-save">Load &#x2F; Save</a>
+								</li><li>
+									<a href="https://lallyx.github.io/devlog/starting-point/#overworld-concept">Overworld concept</a>
+								</li></ol></li></ol><h1 id="tooling">Tooling</h1>
+<p>Let's start from the tooling and resources chosen for the project.</p>
+<p>The following is intended to give a sense of what I've selected and used so far.
+Future entries will detail additional tools and discoveries.</p>
+<p>Maybe at some point I can compile a comprehensive list, but for the time being this is pretty much everything I'm using.</p>
+<h2 id="game-engine">Game engine</h2>
+<p>Godot4 - open source, touted to be easy and configurable and perfect for 2D games.</p>
+<p>No unity bloat, no hidden fees.</p>
+<p>I dabbled a bit with Pico8 as well, but I want to end up having something more polished and commercially viable by the end of this, so it seemed the next best step up without going down a bigger rabbit hole.</p>
+<p>I will get back to Pico8 at some point as I really enjoyed working with it and the retro feel that comes with it.</p>
+<h2 id="ai-assistant-just-for-the-code">AI Assistant (just for the code)</h2>
+<p>our trusted advisor will be chatGPT, with a splash of Claude if we can't come to an agreement.</p>
+<p>I will use these boys mostly for prototyping and code validation, so that I know I'm on the right path and to get inspired on how to build functionalities that I don't have the knowledge to understand yet.</p>
+<h2 id="graphics">Graphics</h2>
+<p>I picked up a few free packages from itch.io. I really wanted to do it all myself to begin with, but that would have prevented any real progress for too long.</p>
+<p>I plan to upgrade the resources taken and modify them as a I go, to give them my personal touch and to learn from how they were originally created. Also, most free resources don't come with all angles and perspectives, so I've already done quite a few modifications.</p>
+<h2 id="pixel-art-making">Pixel-art making</h2>
+<p>I bit the bullet and bought Aseprite.</p>
+<p>I wanted to be cheap (not that it's that expensive anyway), but I figured that if I want to do this properly I should invest a bit in it.</p>
+<p>I've used to edit quite a few sprites already and it's straightforward enough.</p>
+<p>I haven't used any advanced features beyond layers to check animation timelines, but I'm planning to explore some pluging to see where those can take my lack of knowledge.</p>
+<h2 id="tutorials">Tutorials</h2>
+<p>I'm following <a href="https://www.youtube.com/watch?v=QPeycNt29tY&amp;list=PLfcCiyd_V9GH8M9xd_QKlyU8jryGcy3Xa&amp;ab_channel=MichaelGames">this channel</a> which I find extremely informative, direct to the point and well laid out.</p>
+<p>The programming patterns used are very viable for production-ready code (at least when compared to my web deb experience) and the methods used are easily transferable to any game mechanic I want to implement.</p>
+<p>So far - I just got to the inventory building - I can see how his approach can be transfered to any other game.
+Props to you, Michael!</p>
+<h1 id="yeah-but-what-have-you-actually-built-so-far">Yeah, but what have you actually built so far?</h1>
+<h2 id="player">Player</h2>
+<p>My first hero character - a dragon, lizard, crocodile friend.
+He can:</p>
+<ul>
+<li>move</li>
+<li>aim in the direction he's facing (and look at the mouse, I have the function ready)</li>
+<li>perform a 'shouting' attack in front of him</li>
+<li>deal damage</li>
+<li>take damage</li>
+<li>animate in all faced directions</li>
+<li>idle like a boss</li>
+</ul>
+<p>All powered by an extendable state machine.</p>
+<figure>
+<p><img src="/devlog-resources/recordings/drero-front.gif" alt="Front animation" /></p>
+<figcaption>Front animation, with front view created from 0</figcaption>
+</figure>
+<figure>
+<p><img src="/devlog-resources/recordings/drero-side.gif" alt="Side animation" /></p>
+<figcaption>Taken from free resources and tweaked</figcaption>
+</figure>
+<figure>
+<p><img src="/devlog-resources/recordings/attack-animation.gif" alt="Attack animation" /></p>
+<figcaption>Attack 'shout' animation, on all sides</figcaption>
+</figure>
+<h2 id="enemies">Enemies</h2>
+<p>My first enemy character - a derpy snail
+He can:</p>
+<ul>
+<li>Move randomly, with its own state machine</li>
+<li>Hurt when collided with</li>
+<li>Animate in all directions</li>
+<li>Look at you from behind</li>
+</ul>
+<figure>
+<p><img src="/devlog-resources/recordings/roaming-snails.gif" alt="Snails roaming around" /></p>
+<figcaption>Roam, my fiends</figcaption>
+</figure>
+<h2 id="scene-transitions-and-a-map-to-explore">Scene transitions and a map to explore</h2>
+<p>A few level scenes staged with a free tileset I plan to adopt throughout most of the game.</p>
+<p>it's quite comprehensive and includes a lot of fitting assets that would be easy to further tweak.
+Bonus points because I <strong>love the palette</strong>.</p>
+<p>I've also implemented the scene transition logic, which can pretty much be reused throughout the whole game moving forward.</p>
+<figure>
+<p><img src="/devlog-resources/recordings/exploration.gif" alt="Show me the way" /></p>
+<figcaption>Show me the way, my friend</figcaption>
+</figure>
+<h2 id="load-save">Load / Save</h2>
+<p>Very basic, json file with scene location and health amount.</p>
+<p>Can be easily expanded and doesn't require much maintenance.</p>
+<p>Not even comparable to a full backend implementation or needing a DB to query.</p>
+<figure>
+<p><img src="/devlog-resources/recordings/saving.gif" alt="Load / Save" /></p>
+<figcaption>Where was I?</figcaption>
+</figure>
+<h2 id="overworld-concept">Overworld concept</h2>
+<p>I'm really pleased with this one, as it was "vibe coded" with chatGPT and the results are really solid.</p>
+<p>I've got a reusable logic that only requires to manually position the locations, select which directions are allowed and draw the path to follow.</p>
+<p>Everything else is handled automatically, the animations swap based on the turn angle and it's basically endlessly extendable.</p>
+<p>Once I know how to plug it and what do with it I'll add events to unlock/show new locations and then different markers for each of them.</p>
+<p>Really, really happy about this one.</p>
+<figure>
+<p><img src="/devlog-resources/recordings/overworld.gif" alt="Overworld" /></p>
+<figcaption>Where was I?</figcaption>
+</figure>
+<p>Yeah, I know it's a different tileset.</p>
+<p>I wanted to quickly prototype something that would still look good, so I bought it for like 2$ or something and went with it.</p>
+
+</article><hr />
+	<nav id="post-nav"><a class="post-nav-item post-nav-next" href="https:&#x2F;&#x2F;lallyx.github.io&#x2F;devlog&#x2F;2025-08-01&#x2F;">
+				<div class="nav-arrow">Next</div>
+				<span class="post-title">Inventory</span>
+			</a></nav>
+	</main>
+	<footer id="site-footer">
+		<nav>
+			<ul>
+					<li>
+						<a href="https://lallyx.github.io/the-game">The game</a>
+					</li>
+					<li>
+						<a href="https://lallyx.github.io/devlog">Devlog</a>
+					</li>
+			</ul>
+		</nav>
+		<ul id="socials">
+				<li>
+					<a href="https://www.instagram.com/sirbirdings/" rel=" me" title="Instagram">
+						<i class="icon" style='--icon: url("data:image/svg+xml,%3Csvg role=&#x27;img&#x27; viewBox=&#x27;0 0 24 24&#x27; xmlns=&#x27;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&#x27;%3E%3Ctitle%3EInstagram%3C&#x2F;title%3E%3Cpath d=&#x27;M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077&#x27;&#x2F;%3E%3C&#x2F;svg%3E")'></i>
+						<span>Instagram</span>
+					</a>
+				</li>
+		</ul>
+</footer>
+
+	
+	<span id="search-index" class="hidden">https://lallyx.github.io/search_index.en.json</span>
+	<span id="more-matches-text" class="hidden">$MATCHES more matches</span>
+
+	<style type="text/css">
+	:root {
+		--alert-note-text: "Note";
+		--alert-tip-text: "Tip";
+		--alert-important-text: "Important";
+		--alert-warning-text: "Warning";
+		--alert-caution-text: "Caution";
+	}
+</style>
+
+
+</body>
+</html>
